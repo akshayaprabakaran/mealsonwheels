@@ -14,7 +14,8 @@ config :meals_on_wheels, MealsOnWheelsWeb.Endpoint,
   url: [host: "localhost"],
   render_errors: [view: MealsOnWheelsWeb.ErrorView, accepts: ~w(html json), layout: false],
   pubsub_server: MealsOnWheels.PubSub,
-  live_view: [signing_salt: "l8hW6vwd"]
+  live_view: [signing_salt: "l8hW6vwd"],
+  check_origin: ["http://localhost:4001"]
 
 # Configures the mailer
 #

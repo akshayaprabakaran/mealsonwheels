@@ -15,6 +15,8 @@ config :meals_on_wheels, MealsOnWheelsWeb.Endpoint,
 # Do not print debug messages in production
 config :logger, level: :info
 
+config :meals_on_wheels, MealsOnWheels.Repo, types: MealsOnWheels.PostgresTypes
+
 config :meals_on_wheels, :seed, apply(System, :get_env, ["SEED"]) == "true"
 
 # ## SSL Support
@@ -22,9 +24,9 @@ config :meals_on_wheels, :seed, apply(System, :get_env, ["SEED"]) == "true"
 # To get SSL working, you will need to add the `https` key
 # to the previous section and set your `:url` port to 443:
 #
-#     config :meals_on_wheels, MealsOnWheelsWeb.Endpoint,
-#       ...,
-#       url: [host: "example.com", port: 443],
+config :meals_on_wheels, MealsOnWheelsWeb.Endpoint,
+  url: [scheme: "http", host: "localhost/meals_on_wheels", port: 4001]
+
 #       https: [
 #         ...,
 #         port: 443,
