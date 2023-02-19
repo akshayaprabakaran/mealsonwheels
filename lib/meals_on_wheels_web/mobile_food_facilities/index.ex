@@ -132,8 +132,7 @@ defmodule MealsOnWheelsWeb.MealsOnWheelsLive.Index do
       days = day_mappings(ft.days)
       time = time_mappings(ft.from, ft.to)
 
-      [days, time |> Enum.take(length(days))]
-      |> Enum.zip_reduce([], fn elements, acc ->
+      Enum.zip_reduce([days, time], [], fn elements, acc ->
         [elements | acc]
       end)
       |> Enum.map(&Enum.join(&1, " "))
@@ -143,20 +142,15 @@ defmodule MealsOnWheelsWeb.MealsOnWheelsLive.Index do
   end
 
   defp day_mappings(days_list) do
+    day_names =
+      ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"]
+      |> Enum.zip(0..6)
+      |> Enum.into(%{}, fn {name, key} -> {key, name <> " "} end)
+
     days_list
-    |> Enum.sort()
     |> Enum.uniq()
-    |> Enum.map(
-      &case &1 do
-        0 -> "Mon: "
-        1 -> "Tue: "
-        2 -> "Wed: "
-        3 -> "Thu: "
-        4 -> "Fri: "
-        5 -> "Sat: "
-        6 -> "Sun: "
-      end
-    )
+    |> Enum.sort()
+    |> Enum.map(&day_names[&1])
   end
 
   defp time_mappings(from, to) do
