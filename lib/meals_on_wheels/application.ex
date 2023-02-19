@@ -20,7 +20,9 @@ defmodule MealsOnWheels.Application do
     opts = [strategy: :one_for_one, name: MealsOnWheels.Supervisor]
     {:ok, _pid} = Supervisor.start_link(children, opts)
 
-    MealsOnWheels.fetch()
+    if Application.get_env(:meals_on_wheels, :seed, false) do
+      MealsOnWheels.fetch()
+    end
 
     {:ok, _pid}
   end

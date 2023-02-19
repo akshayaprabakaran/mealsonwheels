@@ -30,6 +30,8 @@ config :meals_on_wheels, MealsOnWheelsWeb.Endpoint,
     esbuild: {Esbuild, :install_and_run, [:default, ~w(--sourcemap=inline --watch)]}
   ]
 
+config :meals_on_wheels, :seed, apply(System, :get_env, ["SEED"]) == "true"
+
 # ## SSL Support
 #
 # In order to use HTTPS in development, a self-signed
