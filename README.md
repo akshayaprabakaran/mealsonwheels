@@ -1,6 +1,11 @@
 # Meals On Wheels
 
-Meals On Wheels is a web application that lists all food trucks in San Francisco. Here is how the interface looks:
+Meals On Wheels is a web application that lists all food trucks details in San Francisco. 
+This is how the interface looks:
+
+
+
+https://user-images.githubusercontent.com/43679591/219937440-0acd0e23-8377-426e-80c6-9ec94c108cf1.mp4
 
 
 ## Project Goal
@@ -26,8 +31,24 @@ https://user-images.githubusercontent.com/43679591/219936518-f6562063-8ca7-417d-
   * ***filter the food trucks by food preparation time*** (<15mins and 16 - 30mins), and Meals On Wheels will return a list of food trucks that match their prep time criteria.
 
 
+https://user-images.githubusercontent.com/43679591/219936726-9a36e4c9-fa5a-41bd-92cc-53aa446d4c8e.mp4
+
+
+
   * ***filter the food trucks by cuisine*** (Mexican, Italian, Multi-Cuisine.....), and Meals On Wheels will return a list of food trucks that match their cuisine criteria.
+
+
+
+https://user-images.githubusercontent.com/43679591/219936832-fad80eb3-7ae7-4643-80cc-c46fcf22e264.mp4
+
+
   * ***filter the food trucks by food payment method***, and Meals On Wheels will return a list of food trucks that match their payment method criteria.
+
+
+https://user-images.githubusercontent.com/43679591/219936922-1a257b5e-d294-43a5-9f76-521f19bf58b8.mp4
+
+
+
   * find the ***ratings and number of reviews*** of each food truck.
   * find the ***location*** of each food truck.
   * find the ***timings*** of each food truck.
@@ -55,7 +76,8 @@ During the implementation of this project, I had to make several tradeoffs to ba
 
 * asynchronously fetching data from each of Meals On Wheels's external API clients and storing them in db
 * geolocation functionality
-* searching and filtering
+* searching
+* filtering
 * clean/decent visualiization
 
 If I had more time to work on this project, there are several things I would consider implementing
@@ -64,6 +86,10 @@ If I had more time to work on this project, there are several things I would con
 * geolocation functionality to enable users to find food trucks based on their current location.
 * more appealing visualiization using grid layout/React components
 * extensive documentation and testing to ensure that the application is well-documented and reliable.
+
+## Personal Thoughts
+This project ended up being one of my favorite projects I ever worked on. I thoroughly enjoyed designing and implementing this project. Thanks to Estée Lauder team for giving the space for creative freedom in working on this challenge. This project is so very interesting that I am positive to bring in more improvisations and new features soon!
+
 
 ## Instructions to use Meals On Wheels
 
@@ -76,7 +102,7 @@ To start your Phoenix server:
 
   * Clone this project with `git clone https://github.com/akshayaprabakaran/Meals-On-wheels.git`
   * Install dependencies with `mix deps.get`
-  * Create, migrate and populate your database with `SEED=true mix ecto.setup`. 
+  * Create, migrate and populate your database with `SEED=true mix ecto.setup`(This command is IMPORTANT)
   * Start Phoenix endpoint with `mix phx.server` or inside IEx with `iex -S mix phx.server`
 
 Now you can visit [`localhost:4000/meals_on_wheels`](http://localhost:4000/meals_on_wheels) from your browser.
