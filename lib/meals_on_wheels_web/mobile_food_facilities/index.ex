@@ -161,9 +161,14 @@ defmodule MealsOnWheelsWeb.MealsOnWheelsLive.Index do
   end
 
   def rating_stars(rating) do
-    filled_stars(rating)
-    |> Enum.concat(unfilled_stars(rating))
-    |> Enum.join(" ")
+    stars =
+      filled_stars(rating)
+      |> Enum.concat(unfilled_stars(rating))
+      |> Enum.join(" ")
+
+    reviews_count = " (#{Enum.random(50..150)})"
+
+    stars <> reviews_count
   end
 
   defp filled_stars(stars) do

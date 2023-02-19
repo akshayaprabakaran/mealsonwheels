@@ -204,8 +204,12 @@ defmodule MealsOnWheels.MobileFoodFacilities do
     |> order_by_nearest()
   end
 
-  defp filter_with(query, %{prep_time: time}) do
-    query |> where([mfc, mfs, mfa], mfa.preptime <= ^time)
+  defp filter_with(query, %{prep_time: 15}) do
+    query |> where([mfc, mfs, mfa], mfa.preptime <= 15)
+  end
+
+  defp filter_with(query, %{prep_time: 30}) do
+    query |> where([mfc, mfs, mfa], mfa.preptime > 16)
   end
 
   defp filter_with(query, %{cuisine: cuisine}) do

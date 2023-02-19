@@ -10,11 +10,11 @@
         <%= f = form_for @changeset, "#", phx_change: "search_and_filter", as: "search" %>
           <%= label f, :search_phrase, class: "tag-label" do %>
             <div class="tag-icon">
-              <%= text_input f, :search_phrase, class: "tag-input", phx_debounce: 500, placeholder: "Search" %>
+              <%= text_input f, :search_phrase, class: "tag-input", phx_debounce: 500, placeholder: "Search by food truck name" %>
             </div>
           <% end %>
         <%= f = form_for @changeset, "#", phx_change: "filter", as: "filter" %>
-          <% options = ["Filter By: Prep Time": "", "< 15mins": "15", "< 30mins": "30"] %>
+          <% options = ["Filter By: Prep Time": "", "<= 15mins": "15", "16 - 30 mins": "30"] %>
             <%= select f, :filter_by_prep_time, options, class: "tag-select tag-select-sm" %>
           <% options = ["Filter By: Distance": "", "< 1 mile": 1, "< 3 miles": 3, "< 5 miles": 5, "< 10 miles": 10] %>
             <%= select f, :filter_by_distance, options, class: "tag-select tag-select-sm" %>
