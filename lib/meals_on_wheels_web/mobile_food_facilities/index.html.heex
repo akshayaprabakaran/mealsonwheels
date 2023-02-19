@@ -32,6 +32,7 @@
               <th>Timings</th>
               <th>Ratings</th>
               <th>Payment Method</th>
+              <th>Prep Time</th>
               <th></th>
             </tr>
           </thead>
@@ -47,7 +48,8 @@
                 <% end %>
                 </td>
                 <td class="color-stars"><%= raw rating_stars(food_truck.rating) %></td>
-                 <td><%= food_truck.payment_method %></td>
+                <td><%= food_truck.payment_method %></td>
+                <td><%= "#{food_truck.prep_time}" <> " mins" %></td>
                 </tr>
             <% end %>
           </tbody>
