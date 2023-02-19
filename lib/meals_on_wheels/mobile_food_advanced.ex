@@ -17,6 +17,7 @@ defmodule MealsOnWheels.MobileFoodAdvanced do
       [%MobileFoodAdvanced{}, ...]
 
   """
+  @spec list_mobile_food_advanced :: [MobileFoodAdvanced.t()]
   def list_mobile_food_advanced do
     Repo.all(MobileFoodAdvanced)
   end
@@ -35,6 +36,8 @@ defmodule MealsOnWheels.MobileFoodAdvanced do
       ** (Ecto.NoResultsError)
 
   """
+  @spec get_mobile_food_advanced!(id :: Integer.t()) ::
+          MobileFoodAdvanced.t() | Ecto.NoResultsError.t()
   def get_mobile_food_advanced!(id), do: Repo.get!(MobileFoodAdvanced, id)
 
   @doc """
@@ -49,6 +52,8 @@ defmodule MealsOnWheels.MobileFoodAdvanced do
       {:error, %Ecto.Changeset{}}
 
   """
+  @spec create_mobile_food_advanced(attrs :: map()) ::
+          {:ok, MobileFoodAdvanced.t()} | {:error, Ecto.Changeset.t()}
   def create_mobile_food_advanced(attrs \\ %{}) do
     %MobileFoodAdvanced{}
     |> MobileFoodAdvanced.changeset(attrs)
@@ -67,6 +72,11 @@ defmodule MealsOnWheels.MobileFoodAdvanced do
       {:error, %Ecto.Changeset{}}
 
   """
+  @spec update_mobile_food_advanced(
+          mobile_food_advanced :: MobileFoodAdvanced.t(),
+          attrs :: map()
+        ) ::
+          {:ok, MobileFoodAdvanced.t()} | {:error, Ecto.Changeset.t()}
   def update_mobile_food_advanced(%MobileFoodAdvanced{} = mobile_food_advanced, attrs) do
     mobile_food_advanced
     |> MobileFoodAdvanced.changeset(attrs)
@@ -85,6 +95,8 @@ defmodule MealsOnWheels.MobileFoodAdvanced do
       {:error, %Ecto.Changeset{}}
 
   """
+  @spec delete_mobile_food_advanced(mobile_food_advanced :: MobileFoodAdvanced.t()) ::
+          {:ok, MobileFoodAdvanced.t()} | {:error, Ecto.Changeset.t()}
   def delete_mobile_food_advanced(%MobileFoodAdvanced{} = mobile_food_advanced) do
     Repo.delete(mobile_food_advanced)
   end
@@ -98,6 +110,10 @@ defmodule MealsOnWheels.MobileFoodAdvanced do
       %Ecto.Changeset{data: %MobileFoodAdvanced{}}
 
   """
+  @spec change_mobile_food_advanced(
+          mobile_food_advanced :: MobileFoodAdvanced.t(),
+          attrs :: map()
+        ) :: Ecto.Changeset.t()
   def change_mobile_food_advanced(%MobileFoodAdvanced{} = mobile_food_advanced, attrs \\ %{}) do
     MobileFoodAdvanced.changeset(mobile_food_advanced, attrs)
   end

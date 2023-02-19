@@ -17,6 +17,7 @@ defmodule MealsOnWheels.MobileFoodSchedule do
       [%MobileFoodSchedule{}, ...]
 
   """
+  @spec list_mobile_food_schedule() :: [MobileFoodSchedule.t()]
   def list_mobile_food_schedule do
     Repo.all(MobileFoodSchedule)
   end
@@ -35,6 +36,8 @@ defmodule MealsOnWheels.MobileFoodSchedule do
       ** (Ecto.NoResultsError)
 
   """
+  @spec get_mobile_food_schedule!(id :: Integer.t()) ::
+          MobileFoodSchedule.t() | Ecto.NoResultsError.t()
   def get_mobile_food_schedule!(id), do: Repo.get!(MobileFoodSchedule, id)
 
   @doc """
@@ -49,6 +52,8 @@ defmodule MealsOnWheels.MobileFoodSchedule do
       {:error, %Ecto.Changeset{}}
 
   """
+  @spec create_mobile_food_schedule(attrs :: map()) ::
+          {:ok, MobileFoodSchedule.t()} | {:error, Ecto.Changeset.t()}
   def create_mobile_food_schedule(attrs \\ %{}) do
     %MobileFoodSchedule{}
     |> MobileFoodSchedule.changeset(attrs)
@@ -67,6 +72,10 @@ defmodule MealsOnWheels.MobileFoodSchedule do
       {:error, %Ecto.Changeset{}}
 
   """
+  @spec update_mobile_food_schedule(
+          mobile_food_schedule :: MobileFoodSchedule.t(),
+          attrs :: map()
+        ) :: {:ok, MobileFoodSchedule.t()} | {:error, Ecto.Changeset.t()}
   def update_mobile_food_schedule(%MobileFoodSchedule{} = mobile_food_schedule, attrs) do
     mobile_food_schedule
     |> MobileFoodSchedule.changeset(attrs)
@@ -85,6 +94,8 @@ defmodule MealsOnWheels.MobileFoodSchedule do
       {:error, %Ecto.Changeset{}}
 
   """
+  @spec delete_mobile_food_schedule(mobile_food_schedule :: MobileFoodSchedule.t()) ::
+          {:ok, MobileFoodSchedule.t()} | {:error, Ecto.Changeset.t()}
   def delete_mobile_food_schedule(%MobileFoodSchedule{} = mobile_food_schedule) do
     Repo.delete(mobile_food_schedule)
   end
@@ -98,6 +109,10 @@ defmodule MealsOnWheels.MobileFoodSchedule do
       %Ecto.Changeset{data: %MobileFoodSchedule{}}
 
   """
+  @spec update_mobile_food_schedule(
+          mobile_food_schedule :: MobileFoodSchedule.t(),
+          attrs :: map()
+        ) :: Ecto.Changeset.t()
   def change_mobile_food_schedule(%MobileFoodSchedule{} = mobile_food_schedule, attrs \\ %{}) do
     MobileFoodSchedule.changeset(mobile_food_schedule, attrs)
   end
