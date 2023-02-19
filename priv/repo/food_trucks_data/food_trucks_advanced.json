@@ -1,0 +1,3495 @@
+[
+ {
+   "mfc_id": 1,
+   "rating": 3,
+   "preptime": 30,
+   "cuisine": "Italian",
+   "payment_method": "Digital Only"
+ },
+ {
+   "mfc_id": 2,
+   "rating": 4,
+   "preptime": 30,
+   "cuisine": "Brazillian",
+   "payment_method": "Cash Only"
+ },
+ {
+   "mfc_id": 3,
+   "rating": 4,
+   "preptime": 20,
+   "cuisine": "Indian",
+   "payment_method": "Cash/Digital"
+ },
+ {
+   "mfc_id": 4,
+   "rating": 4,
+   "preptime": 15,
+   "cuisine": "Indian",
+   "payment_method": "Cash/Digital"
+ },
+ {
+   "mfc_id": 5,
+   "rating": 4,
+   "preptime": 30,
+   "cuisine": "Brazillian",
+   "payment_method": "Digital Only"
+ },
+ {
+   "mfc_id": 6,
+   "rating": 2,
+   "preptime": 30,
+   "cuisine": "Indian",
+   "payment_method": "Cash Only"
+ },
+ {
+   "mfc_id": 7,
+   "rating": 3,
+   "preptime": 20,
+   "cuisine": "Brazillian",
+   "payment_method": "Cash Only"
+ },
+ {
+   "mfc_id": 8,
+   "rating": 2,
+   "preptime": 30,
+   "cuisine": "Mexican",
+   "payment_method": "Cash Only"
+ },
+ {
+   "mfc_id": 9,
+   "rating": 3,
+   "preptime": 15,
+   "cuisine": "Mexican",
+   "payment_method": "Cash Only"
+ },
+ {
+   "mfc_id": 10,
+   "rating": 5,
+   "preptime": 20,
+   "cuisine": "Japanese",
+   "payment_method": "Cash/Digital"
+ },
+ {
+   "mfc_id": 11,
+   "rating": 3,
+   "preptime": 20,
+   "cuisine": "Japanese",
+   "payment_method": "Cash/Digital"
+ },
+ {
+   "mfc_id": 12,
+   "rating": 4,
+   "preptime": 10,
+   "cuisine": "Indian",
+   "payment_method": "Digital Only"
+ },
+ {
+   "mfc_id": 13,
+   "rating": 2,
+   "preptime": 15,
+   "cuisine": "Japanese",
+   "payment_method": "Cash Only"
+ },
+ {
+   "mfc_id": 14,
+   "rating": 4,
+   "preptime": 15,
+   "cuisine": "Multi-Cuisine",
+   "payment_method": "Cash Only"
+ },
+ {
+   "mfc_id": 15,
+   "rating": 5,
+   "preptime": 20,
+   "cuisine": "Multi-Cuisine",
+   "payment_method": "Cash Only"
+ },
+ {
+   "mfc_id": 16,
+   "rating": 3,
+   "preptime": 15,
+   "cuisine": "Japanese",
+   "payment_method": "Cash/Digital"
+ },
+ {
+   "mfc_id": 17,
+   "rating": 2,
+   "preptime": 10,
+   "cuisine": "Multi-Cuisine",
+   "payment_method": "Cash/Digital"
+ },
+ {
+   "mfc_id": 18,
+   "rating": 2,
+   "preptime": 30,
+   "cuisine": "Multi-Cuisine",
+   "payment_method": "Digital Only"
+ },
+ {
+   "mfc_id": 19,
+   "rating": 5,
+   "preptime": 10,
+   "cuisine": "Japanese",
+   "payment_method": "Cash/Digital"
+ },
+ {
+   "mfc_id": 20,
+   "rating": 3,
+   "preptime": 30,
+   "cuisine": "Italian",
+   "payment_method": "Digital Only"
+ },
+ {
+   "mfc_id": 21,
+   "rating": 2,
+   "preptime": 30,
+   "cuisine": "Brazillian",
+   "payment_method": "Cash/Digital"
+ },
+ {
+   "mfc_id": 22,
+   "rating": 3,
+   "preptime": 30,
+   "cuisine": "Indian",
+   "payment_method": "Digital Only"
+ },
+ {
+   "mfc_id": 23,
+   "rating": 4,
+   "preptime": 15,
+   "cuisine": "Japanese",
+   "payment_method": "Cash Only"
+ },
+ {
+   "mfc_id": 24,
+   "rating": 4,
+   "preptime": 20,
+   "cuisine": "Brazillian",
+   "payment_method": "Digital Only"
+ },
+ {
+   "mfc_id": 25,
+   "rating": 4,
+   "preptime": 20,
+   "cuisine": "Mexican",
+   "payment_method": "Digital Only"
+ },
+ {
+   "mfc_id": 26,
+   "rating": 2,
+   "preptime": 30,
+   "cuisine": "Italian",
+   "payment_method": "Cash Only"
+ },
+ {
+   "mfc_id": 27,
+   "rating": 4,
+   "preptime": 10,
+   "cuisine": "Multi-Cuisine",
+   "payment_method": "Digital Only"
+ },
+ {
+   "mfc_id": 28,
+   "rating": 5,
+   "preptime": 20,
+   "cuisine": "Indian",
+   "payment_method": "Cash Only"
+ },
+ {
+   "mfc_id": 29,
+   "rating": 2,
+   "preptime": 20,
+   "cuisine": "Indian",
+   "payment_method": "Cash Only"
+ },
+ {
+   "mfc_id": 30,
+   "rating": 5,
+   "preptime": 20,
+   "cuisine": "Multi-Cuisine",
+   "payment_method": "Cash/Digital"
+ },
+ {
+   "mfc_id": 31,
+   "rating": 2,
+   "preptime": 10,
+   "cuisine": "Indian",
+   "payment_method": "Digital Only"
+ },
+ {
+   "mfc_id": 32,
+   "rating": 5,
+   "preptime": 10,
+   "cuisine": "Multi-Cuisine",
+   "payment_method": "Cash Only"
+ },
+ {
+   "mfc_id": 33,
+   "rating": 5,
+   "preptime": 30,
+   "cuisine": "Italian",
+   "payment_method": "Cash Only"
+ },
+ {
+   "mfc_id": 34,
+   "rating": 4,
+   "preptime": 30,
+   "cuisine": "Mexican",
+   "payment_method": "Cash Only"
+ },
+ {
+   "mfc_id": 35,
+   "rating": 5,
+   "preptime": 30,
+   "cuisine": "Italian",
+   "payment_method": "Digital Only"
+ },
+ {
+   "mfc_id": 36,
+   "rating": 2,
+   "preptime": 15,
+   "cuisine": "Mexican",
+   "payment_method": "Digital Only"
+ },
+ {
+   "mfc_id": 37,
+   "rating": 5,
+   "preptime": 30,
+   "cuisine": "Japanese",
+   "payment_method": "Cash/Digital"
+ },
+ {
+   "mfc_id": 38,
+   "rating": 4,
+   "preptime": 10,
+   "cuisine": "Japanese",
+   "payment_method": "Cash/Digital"
+ },
+ {
+   "mfc_id": 39,
+   "rating": 4,
+   "preptime": 10,
+   "cuisine": "Multi-Cuisine",
+   "payment_method": "Cash/Digital"
+ },
+ {
+   "mfc_id": 40,
+   "rating": 5,
+   "preptime": 15,
+   "cuisine": "Japanese",
+   "payment_method": "Cash Only"
+ },
+ {
+   "mfc_id": 41,
+   "rating": 4,
+   "preptime": 20,
+   "cuisine": "Japanese",
+   "payment_method": "Cash Only"
+ },
+ {
+   "mfc_id": 42,
+   "rating": 2,
+   "preptime": 20,
+   "cuisine": "Mexican",
+   "payment_method": "Cash Only"
+ },
+ {
+   "mfc_id": 43,
+   "rating": 5,
+   "preptime": 30,
+   "cuisine": "Brazillian",
+   "payment_method": "Cash Only"
+ },
+ {
+   "mfc_id": 44,
+   "rating": 3,
+   "preptime": 30,
+   "cuisine": "Mexican",
+   "payment_method": "Cash/Digital"
+ },
+ {
+   "mfc_id": 45,
+   "rating": 2,
+   "preptime": 15,
+   "cuisine": "Multi-Cuisine",
+   "payment_method": "Cash Only"
+ },
+ {
+   "mfc_id": 46,
+   "rating": 3,
+   "preptime": 15,
+   "cuisine": "Mexican",
+   "payment_method": "Cash Only"
+ },
+ {
+   "mfc_id": 47,
+   "rating": 4,
+   "preptime": 15,
+   "cuisine": "Indian",
+   "payment_method": "Cash/Digital"
+ },
+ {
+   "mfc_id": 48,
+   "rating": 4,
+   "preptime": 15,
+   "cuisine": "Japanese",
+   "payment_method": "Cash/Digital"
+ },
+ {
+   "mfc_id": 49,
+   "rating": 2,
+   "preptime": 20,
+   "cuisine": "Mexican",
+   "payment_method": "Cash Only"
+ },
+ {
+   "mfc_id": 50,
+   "rating": 3,
+   "preptime": 15,
+   "cuisine": "Japanese",
+   "payment_method": "Cash Only"
+ },
+ {
+   "mfc_id": 51,
+   "rating": 2,
+   "preptime": 30,
+   "cuisine": "Mexican",
+   "payment_method": "Cash/Digital"
+ },
+ {
+   "mfc_id": 52,
+   "rating": 5,
+   "preptime": 20,
+   "cuisine": "Indian",
+   "payment_method": "Digital Only"
+ },
+ {
+   "mfc_id": 53,
+   "rating": 2,
+   "preptime": 15,
+   "cuisine": "Indian",
+   "payment_method": "Cash Only"
+ },
+ {
+   "mfc_id": 54,
+   "rating": 5,
+   "preptime": 30,
+   "cuisine": "Mexican",
+   "payment_method": "Cash Only"
+ },
+ {
+   "mfc_id": 55,
+   "rating": 3,
+   "preptime": 20,
+   "cuisine": "Indian",
+   "payment_method": "Digital Only"
+ },
+ {
+   "mfc_id": 56,
+   "rating": 4,
+   "preptime": 10,
+   "cuisine": "Multi-Cuisine",
+   "payment_method": "Cash/Digital"
+ },
+ {
+   "mfc_id": 57,
+   "rating": 3,
+   "preptime": 20,
+   "cuisine": "Mexican",
+   "payment_method": "Cash/Digital"
+ },
+ {
+   "mfc_id": 58,
+   "rating": 3,
+   "preptime": 10,
+   "cuisine": "Indian",
+   "payment_method": "Digital Only"
+ },
+ {
+   "mfc_id": 59,
+   "rating": 5,
+   "preptime": 20,
+   "cuisine": "Multi-Cuisine",
+   "payment_method": "Digital Only"
+ },
+ {
+   "mfc_id": 60,
+   "rating": 2,
+   "preptime": 15,
+   "cuisine": "Brazillian",
+   "payment_method": "Cash Only"
+ },
+ {
+   "mfc_id": 61,
+   "rating": 5,
+   "preptime": 15,
+   "cuisine": "Multi-Cuisine",
+   "payment_method": "Digital Only"
+ },
+ {
+   "mfc_id": 62,
+   "rating": 4,
+   "preptime": 30,
+   "cuisine": "Brazillian",
+   "payment_method": "Cash/Digital"
+ },
+ {
+   "mfc_id": 63,
+   "rating": 2,
+   "preptime": 30,
+   "cuisine": "Japanese",
+   "payment_method": "Cash Only"
+ },
+ {
+   "mfc_id": 64,
+   "rating": 5,
+   "preptime": 30,
+   "cuisine": "Indian",
+   "payment_method": "Cash/Digital"
+ },
+ {
+   "mfc_id": 65,
+   "rating": 4,
+   "preptime": 20,
+   "cuisine": "Mexican",
+   "payment_method": "Digital Only"
+ },
+ {
+   "mfc_id": 66,
+   "rating": 4,
+   "preptime": 15,
+   "cuisine": "Multi-Cuisine",
+   "payment_method": "Cash Only"
+ },
+ {
+   "mfc_id": 67,
+   "rating": 4,
+   "preptime": 10,
+   "cuisine": "Brazillian",
+   "payment_method": "Cash/Digital"
+ },
+ {
+   "mfc_id": 68,
+   "rating": 3,
+   "preptime": 10,
+   "cuisine": "Japanese",
+   "payment_method": "Digital Only"
+ },
+ {
+   "mfc_id": 69,
+   "rating": 5,
+   "preptime": 20,
+   "cuisine": "Japanese",
+   "payment_method": "Cash/Digital"
+ },
+ {
+   "mfc_id": 70,
+   "rating": 4,
+   "preptime": 15,
+   "cuisine": "Japanese",
+   "payment_method": "Cash/Digital"
+ },
+ {
+   "mfc_id": 71,
+   "rating": 2,
+   "preptime": 30,
+   "cuisine": "Indian",
+   "payment_method": "Cash Only"
+ },
+ {
+   "mfc_id": 72,
+   "rating": 4,
+   "preptime": 30,
+   "cuisine": "Japanese",
+   "payment_method": "Digital Only"
+ },
+ {
+   "mfc_id": 73,
+   "rating": 2,
+   "preptime": 20,
+   "cuisine": "Multi-Cuisine",
+   "payment_method": "Digital Only"
+ },
+ {
+   "mfc_id": 74,
+   "rating": 3,
+   "preptime": 10,
+   "cuisine": "Mexican",
+   "payment_method": "Digital Only"
+ },
+ {
+   "mfc_id": 75,
+   "rating": 2,
+   "preptime": 10,
+   "cuisine": "Indian",
+   "payment_method": "Digital Only"
+ },
+ {
+   "mfc_id": 76,
+   "rating": 5,
+   "preptime": 30,
+   "cuisine": "Mexican",
+   "payment_method": "Cash Only"
+ },
+ {
+   "mfc_id": 77,
+   "rating": 2,
+   "preptime": 15,
+   "cuisine": "Brazillian",
+   "payment_method": "Cash/Digital"
+ },
+ {
+   "mfc_id": 78,
+   "rating": 3,
+   "preptime": 15,
+   "cuisine": "Japanese",
+   "payment_method": "Cash Only"
+ },
+ {
+   "mfc_id": 79,
+   "rating": 2,
+   "preptime": 20,
+   "cuisine": "Italian",
+   "payment_method": "Cash/Digital"
+ },
+ {
+   "mfc_id": 80,
+   "rating": 2,
+   "preptime": 20,
+   "cuisine": "Multi-Cuisine",
+   "payment_method": "Digital Only"
+ },
+ {
+   "mfc_id": 81,
+   "rating": 5,
+   "preptime": 10,
+   "cuisine": "Multi-Cuisine",
+   "payment_method": "Digital Only"
+ },
+ {
+   "mfc_id": 82,
+   "rating": 5,
+   "preptime": 10,
+   "cuisine": "Japanese",
+   "payment_method": "Cash/Digital"
+ },
+ {
+   "mfc_id": 83,
+   "rating": 2,
+   "preptime": 30,
+   "cuisine": "Japanese",
+   "payment_method": "Digital Only"
+ },
+ {
+   "mfc_id": 84,
+   "rating": 4,
+   "preptime": 15,
+   "cuisine": "Italian",
+   "payment_method": "Cash/Digital"
+ },
+ {
+   "mfc_id": 85,
+   "rating": 2,
+   "preptime": 10,
+   "cuisine": "Indian",
+   "payment_method": "Cash/Digital"
+ },
+ {
+   "mfc_id": 86,
+   "rating": 5,
+   "preptime": 15,
+   "cuisine": "Italian",
+   "payment_method": "Cash Only"
+ },
+ {
+   "mfc_id": 87,
+   "rating": 3,
+   "preptime": 30,
+   "cuisine": "Japanese",
+   "payment_method": "Digital Only"
+ },
+ {
+   "mfc_id": 88,
+   "rating": 2,
+   "preptime": 15,
+   "cuisine": "Japanese",
+   "payment_method": "Digital Only"
+ },
+ {
+   "mfc_id": 89,
+   "rating": 3,
+   "preptime": 10,
+   "cuisine": "Japanese",
+   "payment_method": "Cash Only"
+ },
+ {
+   "mfc_id": 90,
+   "rating": 4,
+   "preptime": 15,
+   "cuisine": "Brazillian",
+   "payment_method": "Cash Only"
+ },
+ {
+   "mfc_id": 91,
+   "rating": 3,
+   "preptime": 20,
+   "cuisine": "Mexican",
+   "payment_method": "Digital Only"
+ },
+ {
+   "mfc_id": 92,
+   "rating": 5,
+   "preptime": 15,
+   "cuisine": "Indian",
+   "payment_method": "Cash/Digital"
+ },
+ {
+   "mfc_id": 93,
+   "rating": 3,
+   "preptime": 20,
+   "cuisine": "Mexican",
+   "payment_method": "Cash Only"
+ },
+ {
+   "mfc_id": 94,
+   "rating": 3,
+   "preptime": 15,
+   "cuisine": "Indian",
+   "payment_method": "Digital Only"
+ },
+ {
+   "mfc_id": 95,
+   "rating": 5,
+   "preptime": 20,
+   "cuisine": "Italian",
+   "payment_method": "Digital Only"
+ },
+ {
+   "mfc_id": 96,
+   "rating": 5,
+   "preptime": 15,
+   "cuisine": "Brazillian",
+   "payment_method": "Cash/Digital"
+ },
+ {
+   "mfc_id": 97,
+   "rating": 5,
+   "preptime": 30,
+   "cuisine": "Multi-Cuisine",
+   "payment_method": "Cash/Digital"
+ },
+ {
+   "mfc_id": 98,
+   "rating": 5,
+   "preptime": 15,
+   "cuisine": "Italian",
+   "payment_method": "Digital Only"
+ },
+ {
+   "mfc_id": 99,
+   "rating": 3,
+   "preptime": 10,
+   "cuisine": "Brazillian",
+   "payment_method": "Cash Only"
+ },
+ {
+   "mfc_id": 100,
+   "rating": 2,
+   "preptime": 10,
+   "cuisine": "Brazillian",
+   "payment_method": "Digital Only"
+ },
+ {
+   "mfc_id": 101,
+   "rating": 3,
+   "preptime": 10,
+   "cuisine": "Brazillian",
+   "payment_method": "Cash Only"
+ },
+ {
+   "mfc_id": 102,
+   "rating": 5,
+   "preptime": 20,
+   "cuisine": "Indian",
+   "payment_method": "Cash Only"
+ },
+ {
+   "mfc_id": 103,
+   "rating": 2,
+   "preptime": 20,
+   "cuisine": "Indian",
+   "payment_method": "Digital Only"
+ },
+ {
+   "mfc_id": 104,
+   "rating": 3,
+   "preptime": 30,
+   "cuisine": "Japanese",
+   "payment_method": "Digital Only"
+ },
+ {
+   "mfc_id": 105,
+   "rating": 5,
+   "preptime": 10,
+   "cuisine": "Brazillian",
+   "payment_method": "Cash/Digital"
+ },
+ {
+   "mfc_id": 106,
+   "rating": 2,
+   "preptime": 30,
+   "cuisine": "Multi-Cuisine",
+   "payment_method": "Cash Only"
+ },
+ {
+   "mfc_id": 107,
+   "rating": 3,
+   "preptime": 30,
+   "cuisine": "Mexican",
+   "payment_method": "Cash/Digital"
+ },
+ {
+   "mfc_id": 108,
+   "rating": 4,
+   "preptime": 15,
+   "cuisine": "Brazillian",
+   "payment_method": "Cash/Digital"
+ },
+ {
+   "mfc_id": 109,
+   "rating": 4,
+   "preptime": 10,
+   "cuisine": "Italian",
+   "payment_method": "Cash/Digital"
+ },
+ {
+   "mfc_id": 110,
+   "rating": 3,
+   "preptime": 15,
+   "cuisine": "Indian",
+   "payment_method": "Cash Only"
+ },
+ {
+   "mfc_id": 111,
+   "rating": 3,
+   "preptime": 20,
+   "cuisine": "Italian",
+   "payment_method": "Digital Only"
+ },
+ {
+   "mfc_id": 112,
+   "rating": 5,
+   "preptime": 15,
+   "cuisine": "Japanese",
+   "payment_method": "Cash/Digital"
+ },
+ {
+   "mfc_id": 113,
+   "rating": 5,
+   "preptime": 30,
+   "cuisine": "Brazillian",
+   "payment_method": "Cash Only"
+ },
+ {
+   "mfc_id": 114,
+   "rating": 4,
+   "preptime": 30,
+   "cuisine": "Indian",
+   "payment_method": "Digital Only"
+ },
+ {
+   "mfc_id": 115,
+   "rating": 4,
+   "preptime": 15,
+   "cuisine": "Indian",
+   "payment_method": "Cash Only"
+ },
+ {
+   "mfc_id": 116,
+   "rating": 5,
+   "preptime": 30,
+   "cuisine": "Mexican",
+   "payment_method": "Cash Only"
+ },
+ {
+   "mfc_id": 117,
+   "rating": 2,
+   "preptime": 20,
+   "cuisine": "Japanese",
+   "payment_method": "Cash/Digital"
+ },
+ {
+   "mfc_id": 118,
+   "rating": 3,
+   "preptime": 30,
+   "cuisine": "Mexican",
+   "payment_method": "Cash/Digital"
+ },
+ {
+   "mfc_id": 119,
+   "rating": 4,
+   "preptime": 20,
+   "cuisine": "Mexican",
+   "payment_method": "Cash Only"
+ },
+ {
+   "mfc_id": 120,
+   "rating": 4,
+   "preptime": 15,
+   "cuisine": "Italian",
+   "payment_method": "Cash/Digital"
+ },
+ {
+   "mfc_id": 121,
+   "rating": 4,
+   "preptime": 15,
+   "cuisine": "Indian",
+   "payment_method": "Cash Only"
+ },
+ {
+   "mfc_id": 122,
+   "rating": 3,
+   "preptime": 15,
+   "cuisine": "Japanese",
+   "payment_method": "Digital Only"
+ },
+ {
+   "mfc_id": 123,
+   "rating": 5,
+   "preptime": 20,
+   "cuisine": "Italian",
+   "payment_method": "Cash/Digital"
+ },
+ {
+   "mfc_id": 124,
+   "rating": 4,
+   "preptime": 15,
+   "cuisine": "Brazillian",
+   "payment_method": "Cash Only"
+ },
+ {
+   "mfc_id": 125,
+   "rating": 5,
+   "preptime": 15,
+   "cuisine": "Mexican",
+   "payment_method": "Cash/Digital"
+ },
+ {
+   "mfc_id": 126,
+   "rating": 5,
+   "preptime": 10,
+   "cuisine": "Indian",
+   "payment_method": "Cash/Digital"
+ },
+ {
+   "mfc_id": 127,
+   "rating": 4,
+   "preptime": 15,
+   "cuisine": "Multi-Cuisine",
+   "payment_method": "Cash/Digital"
+ },
+ {
+   "mfc_id": 128,
+   "rating": 3,
+   "preptime": 20,
+   "cuisine": "Indian",
+   "payment_method": "Digital Only"
+ },
+ {
+   "mfc_id": 129,
+   "rating": 2,
+   "preptime": 10,
+   "cuisine": "Multi-Cuisine",
+   "payment_method": "Cash/Digital"
+ },
+ {
+   "mfc_id": 130,
+   "rating": 2,
+   "preptime": 20,
+   "cuisine": "Japanese",
+   "payment_method": "Digital Only"
+ },
+ {
+   "mfc_id": 131,
+   "rating": 5,
+   "preptime": 30,
+   "cuisine": "Italian",
+   "payment_method": "Cash Only"
+ },
+ {
+   "mfc_id": 132,
+   "rating": 5,
+   "preptime": 10,
+   "cuisine": "Brazillian",
+   "payment_method": "Cash/Digital"
+ },
+ {
+   "mfc_id": 133,
+   "rating": 2,
+   "preptime": 30,
+   "cuisine": "Italian",
+   "payment_method": "Digital Only"
+ },
+ {
+   "mfc_id": 134,
+   "rating": 5,
+   "preptime": 15,
+   "cuisine": "Indian",
+   "payment_method": "Cash Only"
+ },
+ {
+   "mfc_id": 135,
+   "rating": 3,
+   "preptime": 15,
+   "cuisine": "Multi-Cuisine",
+   "payment_method": "Cash Only"
+ },
+ {
+   "mfc_id": 136,
+   "rating": 4,
+   "preptime": 30,
+   "cuisine": "Indian",
+   "payment_method": "Cash Only"
+ },
+ {
+   "mfc_id": 137,
+   "rating": 5,
+   "preptime": 15,
+   "cuisine": "Italian",
+   "payment_method": "Cash/Digital"
+ },
+ {
+   "mfc_id": 138,
+   "rating": 4,
+   "preptime": 15,
+   "cuisine": "Brazillian",
+   "payment_method": "Cash Only"
+ },
+ {
+   "mfc_id": 139,
+   "rating": 5,
+   "preptime": 20,
+   "cuisine": "Japanese",
+   "payment_method": "Cash/Digital"
+ },
+ {
+   "mfc_id": 140,
+   "rating": 4,
+   "preptime": 10,
+   "cuisine": "Italian",
+   "payment_method": "Cash/Digital"
+ },
+ {
+   "mfc_id": 141,
+   "rating": 4,
+   "preptime": 15,
+   "cuisine": "Japanese",
+   "payment_method": "Cash/Digital"
+ },
+ {
+   "mfc_id": 142,
+   "rating": 3,
+   "preptime": 15,
+   "cuisine": "Mexican",
+   "payment_method": "Digital Only"
+ },
+ {
+   "mfc_id": 143,
+   "rating": 3,
+   "preptime": 30,
+   "cuisine": "Italian",
+   "payment_method": "Cash/Digital"
+ },
+ {
+   "mfc_id": 144,
+   "rating": 5,
+   "preptime": 15,
+   "cuisine": "Multi-Cuisine",
+   "payment_method": "Cash/Digital"
+ },
+ {
+   "mfc_id": 145,
+   "rating": 5,
+   "preptime": 10,
+   "cuisine": "Brazillian",
+   "payment_method": "Digital Only"
+ },
+ {
+   "mfc_id": 146,
+   "rating": 5,
+   "preptime": 10,
+   "cuisine": "Mexican",
+   "payment_method": "Cash/Digital"
+ },
+ {
+   "mfc_id": 147,
+   "rating": 3,
+   "preptime": 30,
+   "cuisine": "Brazillian",
+   "payment_method": "Digital Only"
+ },
+ {
+   "mfc_id": 148,
+   "rating": 5,
+   "preptime": 20,
+   "cuisine": "Brazillian",
+   "payment_method": "Cash/Digital"
+ },
+ {
+   "mfc_id": 149,
+   "rating": 3,
+   "preptime": 10,
+   "cuisine": "Indian",
+   "payment_method": "Cash Only"
+ },
+ {
+   "mfc_id": 150,
+   "rating": 3,
+   "preptime": 30,
+   "cuisine": "Indian",
+   "payment_method": "Cash Only"
+ },
+ {
+   "mfc_id": 151,
+   "rating": 4,
+   "preptime": 10,
+   "cuisine": "Mexican",
+   "payment_method": "Cash Only"
+ },
+ {
+   "mfc_id": 152,
+   "rating": 5,
+   "preptime": 30,
+   "cuisine": "Japanese",
+   "payment_method": "Digital Only"
+ },
+ {
+   "mfc_id": 153,
+   "rating": 2,
+   "preptime": 20,
+   "cuisine": "Italian",
+   "payment_method": "Cash/Digital"
+ },
+ {
+   "mfc_id": 154,
+   "rating": 3,
+   "preptime": 30,
+   "cuisine": "Mexican",
+   "payment_method": "Digital Only"
+ },
+ {
+   "mfc_id": 155,
+   "rating": 4,
+   "preptime": 20,
+   "cuisine": "Italian",
+   "payment_method": "Digital Only"
+ },
+ {
+   "mfc_id": 156,
+   "rating": 2,
+   "preptime": 20,
+   "cuisine": "Mexican",
+   "payment_method": "Cash Only"
+ },
+ {
+   "mfc_id": 157,
+   "rating": 2,
+   "preptime": 30,
+   "cuisine": "Italian",
+   "payment_method": "Cash Only"
+ },
+ {
+   "mfc_id": 158,
+   "rating": 3,
+   "preptime": 20,
+   "cuisine": "Japanese",
+   "payment_method": "Digital Only"
+ },
+ {
+   "mfc_id": 159,
+   "rating": 5,
+   "preptime": 30,
+   "cuisine": "Mexican",
+   "payment_method": "Digital Only"
+ },
+ {
+   "mfc_id": 160,
+   "rating": 5,
+   "preptime": 10,
+   "cuisine": "Indian",
+   "payment_method": "Cash/Digital"
+ },
+ {
+   "mfc_id": 161,
+   "rating": 5,
+   "preptime": 15,
+   "cuisine": "Brazillian",
+   "payment_method": "Digital Only"
+ },
+ {
+   "mfc_id": 162,
+   "rating": 3,
+   "preptime": 15,
+   "cuisine": "Italian",
+   "payment_method": "Cash/Digital"
+ },
+ {
+   "mfc_id": 163,
+   "rating": 4,
+   "preptime": 20,
+   "cuisine": "Indian",
+   "payment_method": "Cash/Digital"
+ },
+ {
+   "mfc_id": 164,
+   "rating": 4,
+   "preptime": 20,
+   "cuisine": "Italian",
+   "payment_method": "Cash/Digital"
+ },
+ {
+   "mfc_id": 165,
+   "rating": 5,
+   "preptime": 20,
+   "cuisine": "Japanese",
+   "payment_method": "Digital Only"
+ },
+ {
+   "mfc_id": 166,
+   "rating": 4,
+   "preptime": 30,
+   "cuisine": "Multi-Cuisine",
+   "payment_method": "Cash Only"
+ },
+ {
+   "mfc_id": 167,
+   "rating": 4,
+   "preptime": 30,
+   "cuisine": "Mexican",
+   "payment_method": "Cash Only"
+ },
+ {
+   "mfc_id": 168,
+   "rating": 4,
+   "preptime": 10,
+   "cuisine": "Mexican",
+   "payment_method": "Cash/Digital"
+ },
+ {
+   "mfc_id": 169,
+   "rating": 2,
+   "preptime": 10,
+   "cuisine": "Japanese",
+   "payment_method": "Cash Only"
+ },
+ {
+   "mfc_id": 170,
+   "rating": 3,
+   "preptime": 10,
+   "cuisine": "Indian",
+   "payment_method": "Digital Only"
+ },
+ {
+   "mfc_id": 171,
+   "rating": 2,
+   "preptime": 30,
+   "cuisine": "Brazillian",
+   "payment_method": "Digital Only"
+ },
+ {
+   "mfc_id": 172,
+   "rating": 5,
+   "preptime": 20,
+   "cuisine": "Indian",
+   "payment_method": "Digital Only"
+ },
+ {
+   "mfc_id": 173,
+   "rating": 2,
+   "preptime": 15,
+   "cuisine": "Multi-Cuisine",
+   "payment_method": "Cash/Digital"
+ },
+ {
+   "mfc_id": 174,
+   "rating": 4,
+   "preptime": 30,
+   "cuisine": "Mexican",
+   "payment_method": "Cash/Digital"
+ },
+ {
+   "mfc_id": 175,
+   "rating": 3,
+   "preptime": 10,
+   "cuisine": "Multi-Cuisine",
+   "payment_method": "Digital Only"
+ },
+ {
+   "mfc_id": 176,
+   "rating": 2,
+   "preptime": 15,
+   "cuisine": "Indian",
+   "payment_method": "Cash/Digital"
+ },
+ {
+   "mfc_id": 177,
+   "rating": 4,
+   "preptime": 15,
+   "cuisine": "Mexican",
+   "payment_method": "Cash Only"
+ },
+ {
+   "mfc_id": 178,
+   "rating": 4,
+   "preptime": 10,
+   "cuisine": "Multi-Cuisine",
+   "payment_method": "Digital Only"
+ },
+ {
+   "mfc_id": 179,
+   "rating": 5,
+   "preptime": 20,
+   "cuisine": "Mexican",
+   "payment_method": "Cash/Digital"
+ },
+ {
+   "mfc_id": 180,
+   "rating": 4,
+   "preptime": 15,
+   "cuisine": "Multi-Cuisine",
+   "payment_method": "Cash Only"
+ },
+ {
+   "mfc_id": 181,
+   "rating": 5,
+   "preptime": 30,
+   "cuisine": "Italian",
+   "payment_method": "Cash/Digital"
+ },
+ {
+   "mfc_id": 182,
+   "rating": 5,
+   "preptime": 10,
+   "cuisine": "Indian",
+   "payment_method": "Cash/Digital"
+ },
+ {
+   "mfc_id": 183,
+   "rating": 3,
+   "preptime": 20,
+   "cuisine": "Multi-Cuisine",
+   "payment_method": "Cash/Digital"
+ },
+ {
+   "mfc_id": 184,
+   "rating": 4,
+   "preptime": 10,
+   "cuisine": "Indian",
+   "payment_method": "Cash Only"
+ },
+ {
+   "mfc_id": 185,
+   "rating": 2,
+   "preptime": 20,
+   "cuisine": "Mexican",
+   "payment_method": "Cash/Digital"
+ },
+ {
+   "mfc_id": 186,
+   "rating": 5,
+   "preptime": 30,
+   "cuisine": "Brazillian",
+   "payment_method": "Digital Only"
+ },
+ {
+   "mfc_id": 187,
+   "rating": 5,
+   "preptime": 20,
+   "cuisine": "Brazillian",
+   "payment_method": "Cash/Digital"
+ },
+ {
+   "mfc_id": 188,
+   "rating": 3,
+   "preptime": 20,
+   "cuisine": "Japanese",
+   "payment_method": "Cash Only"
+ },
+ {
+   "mfc_id": 189,
+   "rating": 3,
+   "preptime": 30,
+   "cuisine": "Mexican",
+   "payment_method": "Digital Only"
+ },
+ {
+   "mfc_id": 190,
+   "rating": 2,
+   "preptime": 15,
+   "cuisine": "Indian",
+   "payment_method": "Cash/Digital"
+ },
+ {
+   "mfc_id": 191,
+   "rating": 2,
+   "preptime": 20,
+   "cuisine": "Brazillian",
+   "payment_method": "Cash Only"
+ },
+ {
+   "mfc_id": 192,
+   "rating": 5,
+   "preptime": 10,
+   "cuisine": "Japanese",
+   "payment_method": "Cash/Digital"
+ },
+ {
+   "mfc_id": 193,
+   "rating": 4,
+   "preptime": 10,
+   "cuisine": "Indian",
+   "payment_method": "Digital Only"
+ },
+ {
+   "mfc_id": 194,
+   "rating": 5,
+   "preptime": 10,
+   "cuisine": "Japanese",
+   "payment_method": "Cash/Digital"
+ },
+ {
+   "mfc_id": 195,
+   "rating": 2,
+   "preptime": 10,
+   "cuisine": "Brazillian",
+   "payment_method": "Cash Only"
+ },
+ {
+   "mfc_id": 196,
+   "rating": 3,
+   "preptime": 30,
+   "cuisine": "Multi-Cuisine",
+   "payment_method": "Digital Only"
+ },
+ {
+   "mfc_id": 197,
+   "rating": 3,
+   "preptime": 10,
+   "cuisine": "Indian",
+   "payment_method": "Cash/Digital"
+ },
+ {
+   "mfc_id": 198,
+   "rating": 5,
+   "preptime": 10,
+   "cuisine": "Japanese",
+   "payment_method": "Cash Only"
+ },
+ {
+   "mfc_id": 199,
+   "rating": 3,
+   "preptime": 10,
+   "cuisine": "Indian",
+   "payment_method": "Cash Only"
+ },
+ {
+   "mfc_id": 200,
+   "rating": 5,
+   "preptime": 15,
+   "cuisine": "Japanese",
+   "payment_method": "Cash Only"
+ },
+ {
+   "mfc_id": 201,
+   "rating": 2,
+   "preptime": 20,
+   "cuisine": "Multi-Cuisine",
+   "payment_method": "Digital Only"
+ },
+ {
+   "mfc_id": 202,
+   "rating": 4,
+   "preptime": 30,
+   "cuisine": "Italian",
+   "payment_method": "Cash/Digital"
+ },
+ {
+   "mfc_id": 203,
+   "rating": 3,
+   "preptime": 20,
+   "cuisine": "Japanese",
+   "payment_method": "Cash/Digital"
+ },
+ {
+   "mfc_id": 204,
+   "rating": 4,
+   "preptime": 20,
+   "cuisine": "Brazillian",
+   "payment_method": "Digital Only"
+ },
+ {
+   "mfc_id": 205,
+   "rating": 2,
+   "preptime": 15,
+   "cuisine": "Multi-Cuisine",
+   "payment_method": "Cash Only"
+ },
+ {
+   "mfc_id": 206,
+   "rating": 4,
+   "preptime": 30,
+   "cuisine": "Brazillian",
+   "payment_method": "Cash Only"
+ },
+ {
+   "mfc_id": 207,
+   "rating": 3,
+   "preptime": 20,
+   "cuisine": "Mexican",
+   "payment_method": "Cash/Digital"
+ },
+ {
+   "mfc_id": 208,
+   "rating": 4,
+   "preptime": 20,
+   "cuisine": "Japanese",
+   "payment_method": "Cash/Digital"
+ },
+ {
+   "mfc_id": 209,
+   "rating": 3,
+   "preptime": 15,
+   "cuisine": "Brazillian",
+   "payment_method": "Cash/Digital"
+ },
+ {
+   "mfc_id": 210,
+   "rating": 4,
+   "preptime": 30,
+   "cuisine": "Mexican",
+   "payment_method": "Digital Only"
+ },
+ {
+   "mfc_id": 211,
+   "rating": 3,
+   "preptime": 20,
+   "cuisine": "Indian",
+   "payment_method": "Cash/Digital"
+ },
+ {
+   "mfc_id": 212,
+   "rating": 4,
+   "preptime": 30,
+   "cuisine": "Italian",
+   "payment_method": "Cash/Digital"
+ },
+ {
+   "mfc_id": 213,
+   "rating": 4,
+   "preptime": 10,
+   "cuisine": "Brazillian",
+   "payment_method": "Cash Only"
+ },
+ {
+   "mfc_id": 214,
+   "rating": 3,
+   "preptime": 20,
+   "cuisine": "Mexican",
+   "payment_method": "Digital Only"
+ },
+ {
+   "mfc_id": 215,
+   "rating": 3,
+   "preptime": 10,
+   "cuisine": "Japanese",
+   "payment_method": "Cash/Digital"
+ },
+ {
+   "mfc_id": 216,
+   "rating": 2,
+   "preptime": 30,
+   "cuisine": "Multi-Cuisine",
+   "payment_method": "Cash/Digital"
+ },
+ {
+   "mfc_id": 217,
+   "rating": 3,
+   "preptime": 10,
+   "cuisine": "Japanese",
+   "payment_method": "Digital Only"
+ },
+ {
+   "mfc_id": 218,
+   "rating": 5,
+   "preptime": 15,
+   "cuisine": "Mexican",
+   "payment_method": "Cash/Digital"
+ },
+ {
+   "mfc_id": 219,
+   "rating": 3,
+   "preptime": 15,
+   "cuisine": "Italian",
+   "payment_method": "Cash Only"
+ },
+ {
+   "mfc_id": 220,
+   "rating": 5,
+   "preptime": 10,
+   "cuisine": "Multi-Cuisine",
+   "payment_method": "Digital Only"
+ },
+ {
+   "mfc_id": 221,
+   "rating": 3,
+   "preptime": 30,
+   "cuisine": "Multi-Cuisine",
+   "payment_method": "Cash Only"
+ },
+ {
+   "mfc_id": 222,
+   "rating": 5,
+   "preptime": 10,
+   "cuisine": "Mexican",
+   "payment_method": "Digital Only"
+ },
+ {
+   "mfc_id": 223,
+   "rating": 5,
+   "preptime": 20,
+   "cuisine": "Italian",
+   "payment_method": "Cash/Digital"
+ },
+ {
+   "mfc_id": 224,
+   "rating": 4,
+   "preptime": 15,
+   "cuisine": "Brazillian",
+   "payment_method": "Cash Only"
+ },
+ {
+   "mfc_id": 225,
+   "rating": 4,
+   "preptime": 15,
+   "cuisine": "Indian",
+   "payment_method": "Cash Only"
+ },
+ {
+   "mfc_id": 226,
+   "rating": 2,
+   "preptime": 30,
+   "cuisine": "Brazillian",
+   "payment_method": "Digital Only"
+ },
+ {
+   "mfc_id": 227,
+   "rating": 2,
+   "preptime": 15,
+   "cuisine": "Multi-Cuisine",
+   "payment_method": "Cash/Digital"
+ },
+ {
+   "mfc_id": 228,
+   "rating": 3,
+   "preptime": 20,
+   "cuisine": "Mexican",
+   "payment_method": "Cash/Digital"
+ },
+ {
+   "mfc_id": 229,
+   "rating": 5,
+   "preptime": 30,
+   "cuisine": "Brazillian",
+   "payment_method": "Digital Only"
+ },
+ {
+   "mfc_id": 230,
+   "rating": 2,
+   "preptime": 15,
+   "cuisine": "Japanese",
+   "payment_method": "Cash Only"
+ },
+ {
+   "mfc_id": 231,
+   "rating": 3,
+   "preptime": 15,
+   "cuisine": "Brazillian",
+   "payment_method": "Cash/Digital"
+ },
+ {
+   "mfc_id": 232,
+   "rating": 5,
+   "preptime": 10,
+   "cuisine": "Italian",
+   "payment_method": "Digital Only"
+ },
+ {
+   "mfc_id": 233,
+   "rating": 2,
+   "preptime": 20,
+   "cuisine": "Multi-Cuisine",
+   "payment_method": "Cash/Digital"
+ },
+ {
+   "mfc_id": 234,
+   "rating": 4,
+   "preptime": 15,
+   "cuisine": "Japanese",
+   "payment_method": "Digital Only"
+ },
+ {
+   "mfc_id": 235,
+   "rating": 4,
+   "preptime": 20,
+   "cuisine": "Italian",
+   "payment_method": "Cash Only"
+ },
+ {
+   "mfc_id": 236,
+   "rating": 4,
+   "preptime": 10,
+   "cuisine": "Japanese",
+   "payment_method": "Cash Only"
+ },
+ {
+   "mfc_id": 237,
+   "rating": 2,
+   "preptime": 15,
+   "cuisine": "Japanese",
+   "payment_method": "Cash/Digital"
+ },
+ {
+   "mfc_id": 238,
+   "rating": 4,
+   "preptime": 10,
+   "cuisine": "Japanese",
+   "payment_method": "Cash/Digital"
+ },
+ {
+   "mfc_id": 239,
+   "rating": 5,
+   "preptime": 10,
+   "cuisine": "Japanese",
+   "payment_method": "Cash/Digital"
+ },
+ {
+   "mfc_id": 240,
+   "rating": 2,
+   "preptime": 10,
+   "cuisine": "Italian",
+   "payment_method": "Digital Only"
+ },
+ {
+   "mfc_id": 241,
+   "rating": 4,
+   "preptime": 15,
+   "cuisine": "Indian",
+   "payment_method": "Cash Only"
+ },
+ {
+   "mfc_id": 242,
+   "rating": 4,
+   "preptime": 30,
+   "cuisine": "Mexican",
+   "payment_method": "Digital Only"
+ },
+ {
+   "mfc_id": 243,
+   "rating": 5,
+   "preptime": 10,
+   "cuisine": "Multi-Cuisine",
+   "payment_method": "Digital Only"
+ },
+ {
+   "mfc_id": 244,
+   "rating": 5,
+   "preptime": 15,
+   "cuisine": "Brazillian",
+   "payment_method": "Digital Only"
+ },
+ {
+   "mfc_id": 245,
+   "rating": 3,
+   "preptime": 15,
+   "cuisine": "Japanese",
+   "payment_method": "Cash/Digital"
+ },
+ {
+   "mfc_id": 246,
+   "rating": 5,
+   "preptime": 20,
+   "cuisine": "Japanese",
+   "payment_method": "Cash Only"
+ },
+ {
+   "mfc_id": 247,
+   "rating": 5,
+   "preptime": 15,
+   "cuisine": "Italian",
+   "payment_method": "Digital Only"
+ },
+ {
+   "mfc_id": 248,
+   "rating": 5,
+   "preptime": 20,
+   "cuisine": "Brazillian",
+   "payment_method": "Cash Only"
+ },
+ {
+   "mfc_id": 249,
+   "rating": 3,
+   "preptime": 20,
+   "cuisine": "Italian",
+   "payment_method": "Digital Only"
+ },
+ {
+   "mfc_id": 250,
+   "rating": 4,
+   "preptime": 10,
+   "cuisine": "Multi-Cuisine",
+   "payment_method": "Cash Only"
+ },
+ {
+   "mfc_id": 251,
+   "rating": 5,
+   "preptime": 10,
+   "cuisine": "Brazillian",
+   "payment_method": "Cash Only"
+ },
+ {
+   "mfc_id": 252,
+   "rating": 5,
+   "preptime": 15,
+   "cuisine": "Italian",
+   "payment_method": "Digital Only"
+ },
+ {
+   "mfc_id": 253,
+   "rating": 5,
+   "preptime": 15,
+   "cuisine": "Italian",
+   "payment_method": "Digital Only"
+ },
+ {
+   "mfc_id": 254,
+   "rating": 4,
+   "preptime": 10,
+   "cuisine": "Multi-Cuisine",
+   "payment_method": "Cash/Digital"
+ },
+ {
+   "mfc_id": 255,
+   "rating": 2,
+   "preptime": 20,
+   "cuisine": "Multi-Cuisine",
+   "payment_method": "Digital Only"
+ },
+ {
+   "mfc_id": 256,
+   "rating": 4,
+   "preptime": 30,
+   "cuisine": "Multi-Cuisine",
+   "payment_method": "Digital Only"
+ },
+ {
+   "mfc_id": 257,
+   "rating": 5,
+   "preptime": 15,
+   "cuisine": "Multi-Cuisine",
+   "payment_method": "Digital Only"
+ },
+ {
+   "mfc_id": 258,
+   "rating": 3,
+   "preptime": 30,
+   "cuisine": "Multi-Cuisine",
+   "payment_method": "Cash Only"
+ },
+ {
+   "mfc_id": 259,
+   "rating": 3,
+   "preptime": 10,
+   "cuisine": "Italian",
+   "payment_method": "Cash Only"
+ },
+ {
+   "mfc_id": 260,
+   "rating": 5,
+   "preptime": 30,
+   "cuisine": "Multi-Cuisine",
+   "payment_method": "Digital Only"
+ },
+ {
+   "mfc_id": 261,
+   "rating": 2,
+   "preptime": 15,
+   "cuisine": "Multi-Cuisine",
+   "payment_method": "Digital Only"
+ },
+ {
+   "mfc_id": 262,
+   "rating": 5,
+   "preptime": 30,
+   "cuisine": "Indian",
+   "payment_method": "Cash Only"
+ },
+ {
+   "mfc_id": 263,
+   "rating": 4,
+   "preptime": 15,
+   "cuisine": "Brazillian",
+   "payment_method": "Cash/Digital"
+ },
+ {
+   "mfc_id": 264,
+   "rating": 5,
+   "preptime": 30,
+   "cuisine": "Japanese",
+   "payment_method": "Cash/Digital"
+ },
+ {
+   "mfc_id": 265,
+   "rating": 5,
+   "preptime": 10,
+   "cuisine": "Japanese",
+   "payment_method": "Cash/Digital"
+ },
+ {
+   "mfc_id": 266,
+   "rating": 5,
+   "preptime": 20,
+   "cuisine": "Multi-Cuisine",
+   "payment_method": "Cash/Digital"
+ },
+ {
+   "mfc_id": 267,
+   "rating": 4,
+   "preptime": 30,
+   "cuisine": "Indian",
+   "payment_method": "Cash/Digital"
+ },
+ {
+   "mfc_id": 268,
+   "rating": 3,
+   "preptime": 15,
+   "cuisine": "Italian",
+   "payment_method": "Cash/Digital"
+ },
+ {
+   "mfc_id": 269,
+   "rating": 3,
+   "preptime": 30,
+   "cuisine": "Multi-Cuisine",
+   "payment_method": "Cash/Digital"
+ },
+ {
+   "mfc_id": 270,
+   "rating": 4,
+   "preptime": 15,
+   "cuisine": "Brazillian",
+   "payment_method": "Cash Only"
+ },
+ {
+   "mfc_id": 271,
+   "rating": 3,
+   "preptime": 10,
+   "cuisine": "Indian",
+   "payment_method": "Cash/Digital"
+ },
+ {
+   "mfc_id": 272,
+   "rating": 3,
+   "preptime": 20,
+   "cuisine": "Brazillian",
+   "payment_method": "Digital Only"
+ },
+ {
+   "mfc_id": 273,
+   "rating": 3,
+   "preptime": 10,
+   "cuisine": "Indian",
+   "payment_method": "Digital Only"
+ },
+ {
+   "mfc_id": 274,
+   "rating": 3,
+   "preptime": 30,
+   "cuisine": "Mexican",
+   "payment_method": "Cash Only"
+ },
+ {
+   "mfc_id": 275,
+   "rating": 3,
+   "preptime": 20,
+   "cuisine": "Japanese",
+   "payment_method": "Cash/Digital"
+ },
+ {
+   "mfc_id": 276,
+   "rating": 4,
+   "preptime": 10,
+   "cuisine": "Indian",
+   "payment_method": "Cash/Digital"
+ },
+ {
+   "mfc_id": 277,
+   "rating": 3,
+   "preptime": 15,
+   "cuisine": "Indian",
+   "payment_method": "Cash Only"
+ },
+ {
+   "mfc_id": 278,
+   "rating": 4,
+   "preptime": 15,
+   "cuisine": "Italian",
+   "payment_method": "Digital Only"
+ },
+ {
+   "mfc_id": 279,
+   "rating": 3,
+   "preptime": 15,
+   "cuisine": "Italian",
+   "payment_method": "Digital Only"
+ },
+ {
+   "mfc_id": 280,
+   "rating": 4,
+   "preptime": 10,
+   "cuisine": "Japanese",
+   "payment_method": "Cash/Digital"
+ },
+ {
+   "mfc_id": 281,
+   "rating": 3,
+   "preptime": 20,
+   "cuisine": "Indian",
+   "payment_method": "Digital Only"
+ },
+ {
+   "mfc_id": 282,
+   "rating": 2,
+   "preptime": 10,
+   "cuisine": "Mexican",
+   "payment_method": "Cash Only"
+ },
+ {
+   "mfc_id": 283,
+   "rating": 5,
+   "preptime": 30,
+   "cuisine": "Japanese",
+   "payment_method": "Cash/Digital"
+ },
+ {
+   "mfc_id": 284,
+   "rating": 5,
+   "preptime": 30,
+   "cuisine": "Indian",
+   "payment_method": "Cash Only"
+ },
+ {
+   "mfc_id": 285,
+   "rating": 2,
+   "preptime": 15,
+   "cuisine": "Italian",
+   "payment_method": "Cash/Digital"
+ },
+ {
+   "mfc_id": 286,
+   "rating": 3,
+   "preptime": 10,
+   "cuisine": "Japanese",
+   "payment_method": "Cash Only"
+ },
+ {
+   "mfc_id": 287,
+   "rating": 2,
+   "preptime": 20,
+   "cuisine": "Indian",
+   "payment_method": "Cash/Digital"
+ },
+ {
+   "mfc_id": 288,
+   "rating": 3,
+   "preptime": 20,
+   "cuisine": "Multi-Cuisine",
+   "payment_method": "Cash/Digital"
+ },
+ {
+   "mfc_id": 289,
+   "rating": 2,
+   "preptime": 20,
+   "cuisine": "Brazillian",
+   "payment_method": "Digital Only"
+ },
+ {
+   "mfc_id": 290,
+   "rating": 5,
+   "preptime": 20,
+   "cuisine": "Japanese",
+   "payment_method": "Cash/Digital"
+ },
+ {
+   "mfc_id": 291,
+   "rating": 3,
+   "preptime": 15,
+   "cuisine": "Multi-Cuisine",
+   "payment_method": "Cash/Digital"
+ },
+ {
+   "mfc_id": 292,
+   "rating": 4,
+   "preptime": 30,
+   "cuisine": "Indian",
+   "payment_method": "Digital Only"
+ },
+ {
+   "mfc_id": 293,
+   "rating": 5,
+   "preptime": 20,
+   "cuisine": "Brazillian",
+   "payment_method": "Cash/Digital"
+ },
+ {
+   "mfc_id": 294,
+   "rating": 5,
+   "preptime": 30,
+   "cuisine": "Italian",
+   "payment_method": "Cash Only"
+ },
+ {
+   "mfc_id": 295,
+   "rating": 4,
+   "preptime": 20,
+   "cuisine": "Japanese",
+   "payment_method": "Cash/Digital"
+ },
+ {
+   "mfc_id": 296,
+   "rating": 2,
+   "preptime": 20,
+   "cuisine": "Japanese",
+   "payment_method": "Cash/Digital"
+ },
+ {
+   "mfc_id": 297,
+   "rating": 3,
+   "preptime": 20,
+   "cuisine": "Multi-Cuisine",
+   "payment_method": "Cash Only"
+ },
+ {
+   "mfc_id": 298,
+   "rating": 2,
+   "preptime": 10,
+   "cuisine": "Mexican",
+   "payment_method": "Cash Only"
+ },
+ {
+   "mfc_id": 299,
+   "rating": 5,
+   "preptime": 15,
+   "cuisine": "Mexican",
+   "payment_method": "Digital Only"
+ },
+ {
+   "mfc_id": 300,
+   "rating": 3,
+   "preptime": 10,
+   "cuisine": "Japanese",
+   "payment_method": "Digital Only"
+ },
+ {
+   "mfc_id": 301,
+   "rating": 4,
+   "preptime": 20,
+   "cuisine": "Multi-Cuisine",
+   "payment_method": "Cash Only"
+ },
+ {
+   "mfc_id": 302,
+   "rating": 5,
+   "preptime": 20,
+   "cuisine": "Mexican",
+   "payment_method": "Digital Only"
+ },
+ {
+   "mfc_id": 303,
+   "rating": 5,
+   "preptime": 10,
+   "cuisine": "Brazillian",
+   "payment_method": "Digital Only"
+ },
+ {
+   "mfc_id": 304,
+   "rating": 5,
+   "preptime": 20,
+   "cuisine": "Mexican",
+   "payment_method": "Digital Only"
+ },
+ {
+   "mfc_id": 305,
+   "rating": 3,
+   "preptime": 15,
+   "cuisine": "Italian",
+   "payment_method": "Cash/Digital"
+ },
+ {
+   "mfc_id": 306,
+   "rating": 2,
+   "preptime": 20,
+   "cuisine": "Indian",
+   "payment_method": "Cash Only"
+ },
+ {
+   "mfc_id": 307,
+   "rating": 4,
+   "preptime": 30,
+   "cuisine": "Multi-Cuisine",
+   "payment_method": "Cash Only"
+ },
+ {
+   "mfc_id": 308,
+   "rating": 3,
+   "preptime": 10,
+   "cuisine": "Mexican",
+   "payment_method": "Cash Only"
+ },
+ {
+   "mfc_id": 309,
+   "rating": 3,
+   "preptime": 15,
+   "cuisine": "Brazillian",
+   "payment_method": "Cash/Digital"
+ },
+ {
+   "mfc_id": 310,
+   "rating": 5,
+   "preptime": 20,
+   "cuisine": "Multi-Cuisine",
+   "payment_method": "Cash/Digital"
+ },
+ {
+   "mfc_id": 311,
+   "rating": 2,
+   "preptime": 15,
+   "cuisine": "Brazillian",
+   "payment_method": "Digital Only"
+ },
+ {
+   "mfc_id": 312,
+   "rating": 5,
+   "preptime": 30,
+   "cuisine": "Japanese",
+   "payment_method": "Digital Only"
+ },
+ {
+   "mfc_id": 313,
+   "rating": 5,
+   "preptime": 15,
+   "cuisine": "Italian",
+   "payment_method": "Cash/Digital"
+ },
+ {
+   "mfc_id": 314,
+   "rating": 3,
+   "preptime": 20,
+   "cuisine": "Mexican",
+   "payment_method": "Cash Only"
+ },
+ {
+   "mfc_id": 315,
+   "rating": 2,
+   "preptime": 10,
+   "cuisine": "Multi-Cuisine",
+   "payment_method": "Cash/Digital"
+ },
+ {
+   "mfc_id": 316,
+   "rating": 4,
+   "preptime": 20,
+   "cuisine": "Multi-Cuisine",
+   "payment_method": "Cash Only"
+ },
+ {
+   "mfc_id": 317,
+   "rating": 5,
+   "preptime": 10,
+   "cuisine": "Italian",
+   "payment_method": "Cash/Digital"
+ },
+ {
+   "mfc_id": 318,
+   "rating": 4,
+   "preptime": 20,
+   "cuisine": "Italian",
+   "payment_method": "Cash Only"
+ },
+ {
+   "mfc_id": 319,
+   "rating": 4,
+   "preptime": 15,
+   "cuisine": "Mexican",
+   "payment_method": "Digital Only"
+ },
+ {
+   "mfc_id": 320,
+   "rating": 5,
+   "preptime": 15,
+   "cuisine": "Japanese",
+   "payment_method": "Digital Only"
+ },
+ {
+   "mfc_id": 321,
+   "rating": 3,
+   "preptime": 15,
+   "cuisine": "Mexican",
+   "payment_method": "Cash/Digital"
+ },
+ {
+   "mfc_id": 322,
+   "rating": 4,
+   "preptime": 15,
+   "cuisine": "Brazillian",
+   "payment_method": "Digital Only"
+ },
+ {
+   "mfc_id": 323,
+   "rating": 5,
+   "preptime": 15,
+   "cuisine": "Japanese",
+   "payment_method": "Cash Only"
+ },
+ {
+   "mfc_id": 324,
+   "rating": 4,
+   "preptime": 15,
+   "cuisine": "Indian",
+   "payment_method": "Cash Only"
+ },
+ {
+   "mfc_id": 325,
+   "rating": 3,
+   "preptime": 30,
+   "cuisine": "Japanese",
+   "payment_method": "Cash Only"
+ },
+ {
+   "mfc_id": 326,
+   "rating": 3,
+   "preptime": 20,
+   "cuisine": "Japanese",
+   "payment_method": "Digital Only"
+ },
+ {
+   "mfc_id": 327,
+   "rating": 2,
+   "preptime": 30,
+   "cuisine": "Indian",
+   "payment_method": "Cash Only"
+ },
+ {
+   "mfc_id": 328,
+   "rating": 4,
+   "preptime": 15,
+   "cuisine": "Multi-Cuisine",
+   "payment_method": "Cash/Digital"
+ },
+ {
+   "mfc_id": 329,
+   "rating": 4,
+   "preptime": 20,
+   "cuisine": "Indian",
+   "payment_method": "Digital Only"
+ },
+ {
+   "mfc_id": 330,
+   "rating": 5,
+   "preptime": 15,
+   "cuisine": "Japanese",
+   "payment_method": "Cash/Digital"
+ },
+ {
+   "mfc_id": 331,
+   "rating": 3,
+   "preptime": 20,
+   "cuisine": "Italian",
+   "payment_method": "Cash/Digital"
+ },
+ {
+   "mfc_id": 332,
+   "rating": 4,
+   "preptime": 30,
+   "cuisine": "Japanese",
+   "payment_method": "Cash/Digital"
+ },
+ {
+   "mfc_id": 333,
+   "rating": 5,
+   "preptime": 20,
+   "cuisine": "Japanese",
+   "payment_method": "Cash/Digital"
+ },
+ {
+   "mfc_id": 334,
+   "rating": 4,
+   "preptime": 10,
+   "cuisine": "Mexican",
+   "payment_method": "Cash/Digital"
+ },
+ {
+   "mfc_id": 335,
+   "rating": 2,
+   "preptime": 10,
+   "cuisine": "Indian",
+   "payment_method": "Cash/Digital"
+ },
+ {
+   "mfc_id": 336,
+   "rating": 5,
+   "preptime": 20,
+   "cuisine": "Brazillian",
+   "payment_method": "Cash Only"
+ },
+ {
+   "mfc_id": 337,
+   "rating": 3,
+   "preptime": 15,
+   "cuisine": "Japanese",
+   "payment_method": "Digital Only"
+ },
+ {
+   "mfc_id": 338,
+   "rating": 2,
+   "preptime": 15,
+   "cuisine": "Italian",
+   "payment_method": "Cash Only"
+ },
+ {
+   "mfc_id": 339,
+   "rating": 3,
+   "preptime": 20,
+   "cuisine": "Indian",
+   "payment_method": "Digital Only"
+ },
+ {
+   "mfc_id": 340,
+   "rating": 3,
+   "preptime": 10,
+   "cuisine": "Multi-Cuisine",
+   "payment_method": "Cash/Digital"
+ },
+ {
+   "mfc_id": 341,
+   "rating": 5,
+   "preptime": 20,
+   "cuisine": "Multi-Cuisine",
+   "payment_method": "Cash/Digital"
+ },
+ {
+   "mfc_id": 342,
+   "rating": 5,
+   "preptime": 20,
+   "cuisine": "Indian",
+   "payment_method": "Cash/Digital"
+ },
+ {
+   "mfc_id": 343,
+   "rating": 5,
+   "preptime": 10,
+   "cuisine": "Italian",
+   "payment_method": "Cash/Digital"
+ },
+ {
+   "mfc_id": 344,
+   "rating": 3,
+   "preptime": 30,
+   "cuisine": "Multi-Cuisine",
+   "payment_method": "Cash Only"
+ },
+ {
+   "mfc_id": 345,
+   "rating": 3,
+   "preptime": 15,
+   "cuisine": "Indian",
+   "payment_method": "Digital Only"
+ },
+ {
+   "mfc_id": 346,
+   "rating": 5,
+   "preptime": 20,
+   "cuisine": "Multi-Cuisine",
+   "payment_method": "Digital Only"
+ },
+ {
+   "mfc_id": 347,
+   "rating": 5,
+   "preptime": 30,
+   "cuisine": "Japanese",
+   "payment_method": "Digital Only"
+ },
+ {
+   "mfc_id": 348,
+   "rating": 5,
+   "preptime": 15,
+   "cuisine": "Italian",
+   "payment_method": "Cash Only"
+ },
+ {
+   "mfc_id": 349,
+   "rating": 3,
+   "preptime": 20,
+   "cuisine": "Mexican",
+   "payment_method": "Cash/Digital"
+ },
+ {
+   "mfc_id": 350,
+   "rating": 3,
+   "preptime": 30,
+   "cuisine": "Mexican",
+   "payment_method": "Cash/Digital"
+ },
+ {
+   "mfc_id": 351,
+   "rating": 2,
+   "preptime": 10,
+   "cuisine": "Multi-Cuisine",
+   "payment_method": "Cash/Digital"
+ },
+ {
+   "mfc_id": 352,
+   "rating": 2,
+   "preptime": 30,
+   "cuisine": "Multi-Cuisine",
+   "payment_method": "Cash Only"
+ },
+ {
+   "mfc_id": 353,
+   "rating": 2,
+   "preptime": 30,
+   "cuisine": "Multi-Cuisine",
+   "payment_method": "Digital Only"
+ },
+ {
+   "mfc_id": 354,
+   "rating": 2,
+   "preptime": 20,
+   "cuisine": "Mexican",
+   "payment_method": "Cash/Digital"
+ },
+ {
+   "mfc_id": 355,
+   "rating": 4,
+   "preptime": 30,
+   "cuisine": "Brazillian",
+   "payment_method": "Digital Only"
+ },
+ {
+   "mfc_id": 356,
+   "rating": 5,
+   "preptime": 20,
+   "cuisine": "Italian",
+   "payment_method": "Digital Only"
+ },
+ {
+   "mfc_id": 357,
+   "rating": 3,
+   "preptime": 15,
+   "cuisine": "Indian",
+   "payment_method": "Cash Only"
+ },
+ {
+   "mfc_id": 358,
+   "rating": 2,
+   "preptime": 10,
+   "cuisine": "Mexican",
+   "payment_method": "Cash Only"
+ },
+ {
+   "mfc_id": 359,
+   "rating": 4,
+   "preptime": 20,
+   "cuisine": "Italian",
+   "payment_method": "Cash/Digital"
+ },
+ {
+   "mfc_id": 360,
+   "rating": 3,
+   "preptime": 30,
+   "cuisine": "Multi-Cuisine",
+   "payment_method": "Cash Only"
+ },
+ {
+   "mfc_id": 361,
+   "rating": 3,
+   "preptime": 20,
+   "cuisine": "Japanese",
+   "payment_method": "Cash Only"
+ },
+ {
+   "mfc_id": 362,
+   "rating": 4,
+   "preptime": 15,
+   "cuisine": "Mexican",
+   "payment_method": "Digital Only"
+ },
+ {
+   "mfc_id": 363,
+   "rating": 3,
+   "preptime": 15,
+   "cuisine": "Italian",
+   "payment_method": "Cash/Digital"
+ },
+ {
+   "mfc_id": 364,
+   "rating": 4,
+   "preptime": 20,
+   "cuisine": "Japanese",
+   "payment_method": "Digital Only"
+ },
+ {
+   "mfc_id": 365,
+   "rating": 3,
+   "preptime": 15,
+   "cuisine": "Japanese",
+   "payment_method": "Cash Only"
+ },
+ {
+   "mfc_id": 366,
+   "rating": 2,
+   "preptime": 20,
+   "cuisine": "Indian",
+   "payment_method": "Cash Only"
+ },
+ {
+   "mfc_id": 367,
+   "rating": 5,
+   "preptime": 30,
+   "cuisine": "Japanese",
+   "payment_method": "Cash/Digital"
+ },
+ {
+   "mfc_id": 368,
+   "rating": 5,
+   "preptime": 20,
+   "cuisine": "Mexican",
+   "payment_method": "Cash/Digital"
+ },
+ {
+   "mfc_id": 369,
+   "rating": 5,
+   "preptime": 15,
+   "cuisine": "Multi-Cuisine",
+   "payment_method": "Cash Only"
+ },
+ {
+   "mfc_id": 370,
+   "rating": 4,
+   "preptime": 10,
+   "cuisine": "Indian",
+   "payment_method": "Cash/Digital"
+ },
+ {
+   "mfc_id": 371,
+   "rating": 5,
+   "preptime": 20,
+   "cuisine": "Italian",
+   "payment_method": "Cash Only"
+ },
+ {
+   "mfc_id": 372,
+   "rating": 3,
+   "preptime": 15,
+   "cuisine": "Japanese",
+   "payment_method": "Cash/Digital"
+ },
+ {
+   "mfc_id": 373,
+   "rating": 5,
+   "preptime": 10,
+   "cuisine": "Brazillian",
+   "payment_method": "Cash Only"
+ },
+ {
+   "mfc_id": 374,
+   "rating": 4,
+   "preptime": 20,
+   "cuisine": "Brazillian",
+   "payment_method": "Digital Only"
+ },
+ {
+   "mfc_id": 375,
+   "rating": 5,
+   "preptime": 15,
+   "cuisine": "Indian",
+   "payment_method": "Cash Only"
+ },
+ {
+   "mfc_id": 376,
+   "rating": 3,
+   "preptime": 10,
+   "cuisine": "Mexican",
+   "payment_method": "Digital Only"
+ },
+ {
+   "mfc_id": 377,
+   "rating": 2,
+   "preptime": 20,
+   "cuisine": "Japanese",
+   "payment_method": "Cash/Digital"
+ },
+ {
+   "mfc_id": 378,
+   "rating": 2,
+   "preptime": 10,
+   "cuisine": "Brazillian",
+   "payment_method": "Cash/Digital"
+ },
+ {
+   "mfc_id": 379,
+   "rating": 5,
+   "preptime": 20,
+   "cuisine": "Multi-Cuisine",
+   "payment_method": "Cash Only"
+ },
+ {
+   "mfc_id": 380,
+   "rating": 2,
+   "preptime": 20,
+   "cuisine": "Italian",
+   "payment_method": "Cash Only"
+ },
+ {
+   "mfc_id": 381,
+   "rating": 5,
+   "preptime": 10,
+   "cuisine": "Mexican",
+   "payment_method": "Cash/Digital"
+ },
+ {
+   "mfc_id": 382,
+   "rating": 5,
+   "preptime": 20,
+   "cuisine": "Brazillian",
+   "payment_method": "Cash/Digital"
+ },
+ {
+   "mfc_id": 383,
+   "rating": 3,
+   "preptime": 15,
+   "cuisine": "Japanese",
+   "payment_method": "Digital Only"
+ },
+ {
+   "mfc_id": 384,
+   "rating": 4,
+   "preptime": 30,
+   "cuisine": "Indian",
+   "payment_method": "Digital Only"
+ },
+ {
+   "mfc_id": 385,
+   "rating": 4,
+   "preptime": 30,
+   "cuisine": "Brazillian",
+   "payment_method": "Cash Only"
+ },
+ {
+   "mfc_id": 386,
+   "rating": 5,
+   "preptime": 30,
+   "cuisine": "Brazillian",
+   "payment_method": "Cash Only"
+ },
+ {
+   "mfc_id": 387,
+   "rating": 3,
+   "preptime": 30,
+   "cuisine": "Indian",
+   "payment_method": "Digital Only"
+ },
+ {
+   "mfc_id": 388,
+   "rating": 2,
+   "preptime": 30,
+   "cuisine": "Indian",
+   "payment_method": "Cash Only"
+ },
+ {
+   "mfc_id": 389,
+   "rating": 4,
+   "preptime": 15,
+   "cuisine": "Multi-Cuisine",
+   "payment_method": "Digital Only"
+ },
+ {
+   "mfc_id": 390,
+   "rating": 4,
+   "preptime": 10,
+   "cuisine": "Indian",
+   "payment_method": "Cash Only"
+ },
+ {
+   "mfc_id": 391,
+   "rating": 5,
+   "preptime": 30,
+   "cuisine": "Japanese",
+   "payment_method": "Cash Only"
+ },
+ {
+   "mfc_id": 392,
+   "rating": 5,
+   "preptime": 20,
+   "cuisine": "Japanese",
+   "payment_method": "Cash Only"
+ },
+ {
+   "mfc_id": 393,
+   "rating": 4,
+   "preptime": 20,
+   "cuisine": "Brazillian",
+   "payment_method": "Cash/Digital"
+ },
+ {
+   "mfc_id": 394,
+   "rating": 5,
+   "preptime": 10,
+   "cuisine": "Indian",
+   "payment_method": "Cash/Digital"
+ },
+ {
+   "mfc_id": 395,
+   "rating": 5,
+   "preptime": 30,
+   "cuisine": "Mexican",
+   "payment_method": "Cash Only"
+ },
+ {
+   "mfc_id": 396,
+   "rating": 5,
+   "preptime": 30,
+   "cuisine": "Indian",
+   "payment_method": "Digital Only"
+ },
+ {
+   "mfc_id": 397,
+   "rating": 2,
+   "preptime": 10,
+   "cuisine": "Brazillian",
+   "payment_method": "Cash/Digital"
+ },
+ {
+   "mfc_id": 398,
+   "rating": 3,
+   "preptime": 30,
+   "cuisine": "Indian",
+   "payment_method": "Cash/Digital"
+ },
+ {
+   "mfc_id": 399,
+   "rating": 4,
+   "preptime": 15,
+   "cuisine": "Indian",
+   "payment_method": "Cash/Digital"
+ },
+ {
+   "mfc_id": 400,
+   "rating": 5,
+   "preptime": 30,
+   "cuisine": "Multi-Cuisine",
+   "payment_method": "Digital Only"
+ },
+ {
+   "mfc_id": 401,
+   "rating": 5,
+   "preptime": 10,
+   "cuisine": "Japanese",
+   "payment_method": "Digital Only"
+ },
+ {
+   "mfc_id": 402,
+   "rating": 2,
+   "preptime": 15,
+   "cuisine": "Mexican",
+   "payment_method": "Digital Only"
+ },
+ {
+   "mfc_id": 403,
+   "rating": 5,
+   "preptime": 10,
+   "cuisine": "Japanese",
+   "payment_method": "Cash/Digital"
+ },
+ {
+   "mfc_id": 404,
+   "rating": 5,
+   "preptime": 10,
+   "cuisine": "Japanese",
+   "payment_method": "Cash/Digital"
+ },
+ {
+   "mfc_id": 405,
+   "rating": 3,
+   "preptime": 15,
+   "cuisine": "Mexican",
+   "payment_method": "Cash Only"
+ },
+ {
+   "mfc_id": 406,
+   "rating": 4,
+   "preptime": 30,
+   "cuisine": "Multi-Cuisine",
+   "payment_method": "Digital Only"
+ },
+ {
+   "mfc_id": 407,
+   "rating": 2,
+   "preptime": 10,
+   "cuisine": "Brazillian",
+   "payment_method": "Cash/Digital"
+ },
+ {
+   "mfc_id": 408,
+   "rating": 3,
+   "preptime": 30,
+   "cuisine": "Mexican",
+   "payment_method": "Digital Only"
+ },
+ {
+   "mfc_id": 409,
+   "rating": 2,
+   "preptime": 10,
+   "cuisine": "Japanese",
+   "payment_method": "Cash Only"
+ },
+ {
+   "mfc_id": 410,
+   "rating": 4,
+   "preptime": 15,
+   "cuisine": "Mexican",
+   "payment_method": "Digital Only"
+ },
+ {
+   "mfc_id": 411,
+   "rating": 3,
+   "preptime": 15,
+   "cuisine": "Multi-Cuisine",
+   "payment_method": "Cash/Digital"
+ },
+ {
+   "mfc_id": 412,
+   "rating": 3,
+   "preptime": 15,
+   "cuisine": "Brazillian",
+   "payment_method": "Cash Only"
+ },
+ {
+   "mfc_id": 413,
+   "rating": 2,
+   "preptime": 10,
+   "cuisine": "Mexican",
+   "payment_method": "Cash/Digital"
+ },
+ {
+   "mfc_id": 414,
+   "rating": 2,
+   "preptime": 15,
+   "cuisine": "Indian",
+   "payment_method": "Cash Only"
+ },
+ {
+   "mfc_id": 415,
+   "rating": 5,
+   "preptime": 30,
+   "cuisine": "Japanese",
+   "payment_method": "Cash Only"
+ },
+ {
+   "mfc_id": 416,
+   "rating": 5,
+   "preptime": 20,
+   "cuisine": "Multi-Cuisine",
+   "payment_method": "Cash Only"
+ },
+ {
+   "mfc_id": 417,
+   "rating": 2,
+   "preptime": 30,
+   "cuisine": "Italian",
+   "payment_method": "Digital Only"
+ },
+ {
+   "mfc_id": 418,
+   "rating": 5,
+   "preptime": 15,
+   "cuisine": "Indian",
+   "payment_method": "Cash/Digital"
+ },
+ {
+   "mfc_id": 419,
+   "rating": 5,
+   "preptime": 30,
+   "cuisine": "Indian",
+   "payment_method": "Cash/Digital"
+ },
+ {
+   "mfc_id": 420,
+   "rating": 4,
+   "preptime": 10,
+   "cuisine": "Indian",
+   "payment_method": "Digital Only"
+ },
+ {
+   "mfc_id": 421,
+   "rating": 5,
+   "preptime": 15,
+   "cuisine": "Multi-Cuisine",
+   "payment_method": "Cash/Digital"
+ },
+ {
+   "mfc_id": 422,
+   "rating": 5,
+   "preptime": 20,
+   "cuisine": "Indian",
+   "payment_method": "Cash/Digital"
+ },
+ {
+   "mfc_id": 423,
+   "rating": 3,
+   "preptime": 15,
+   "cuisine": "Mexican",
+   "payment_method": "Cash Only"
+ },
+ {
+   "mfc_id": 424,
+   "rating": 4,
+   "preptime": 15,
+   "cuisine": "Multi-Cuisine",
+   "payment_method": "Digital Only"
+ },
+ {
+   "mfc_id": 425,
+   "rating": 4,
+   "preptime": 15,
+   "cuisine": "Indian",
+   "payment_method": "Cash/Digital"
+ },
+ {
+   "mfc_id": 426,
+   "rating": 4,
+   "preptime": 10,
+   "cuisine": "Brazillian",
+   "payment_method": "Digital Only"
+ },
+ {
+   "mfc_id": 427,
+   "rating": 3,
+   "preptime": 10,
+   "cuisine": "Multi-Cuisine",
+   "payment_method": "Cash Only"
+ },
+ {
+   "mfc_id": 428,
+   "rating": 5,
+   "preptime": 10,
+   "cuisine": "Japanese",
+   "payment_method": "Cash/Digital"
+ },
+ {
+   "mfc_id": 429,
+   "rating": 5,
+   "preptime": 30,
+   "cuisine": "Multi-Cuisine",
+   "payment_method": "Cash Only"
+ },
+ {
+   "mfc_id": 430,
+   "rating": 2,
+   "preptime": 15,
+   "cuisine": "Japanese",
+   "payment_method": "Digital Only"
+ },
+ {
+   "mfc_id": 431,
+   "rating": 4,
+   "preptime": 15,
+   "cuisine": "Brazillian",
+   "payment_method": "Cash/Digital"
+ },
+ {
+   "mfc_id": 432,
+   "rating": 2,
+   "preptime": 15,
+   "cuisine": "Japanese",
+   "payment_method": "Cash Only"
+ },
+ {
+   "mfc_id": 433,
+   "rating": 3,
+   "preptime": 10,
+   "cuisine": "Mexican",
+   "payment_method": "Cash Only"
+ },
+ {
+   "mfc_id": 434,
+   "rating": 2,
+   "preptime": 15,
+   "cuisine": "Indian",
+   "payment_method": "Cash/Digital"
+ },
+ {
+   "mfc_id": 435,
+   "rating": 3,
+   "preptime": 15,
+   "cuisine": "Italian",
+   "payment_method": "Digital Only"
+ },
+ {
+   "mfc_id": 436,
+   "rating": 5,
+   "preptime": 15,
+   "cuisine": "Multi-Cuisine",
+   "payment_method": "Cash Only"
+ },
+ {
+   "mfc_id": 437,
+   "rating": 5,
+   "preptime": 10,
+   "cuisine": "Mexican",
+   "payment_method": "Cash Only"
+ },
+ {
+   "mfc_id": 438,
+   "rating": 5,
+   "preptime": 10,
+   "cuisine": "Japanese",
+   "payment_method": "Digital Only"
+ },
+ {
+   "mfc_id": 439,
+   "rating": 4,
+   "preptime": 10,
+   "cuisine": "Japanese",
+   "payment_method": "Cash Only"
+ },
+ {
+   "mfc_id": 440,
+   "rating": 3,
+   "preptime": 10,
+   "cuisine": "Mexican",
+   "payment_method": "Cash/Digital"
+ },
+ {
+   "mfc_id": 441,
+   "rating": 5,
+   "preptime": 10,
+   "cuisine": "Italian",
+   "payment_method": "Cash/Digital"
+ },
+ {
+   "mfc_id": 442,
+   "rating": 5,
+   "preptime": 10,
+   "cuisine": "Multi-Cuisine",
+   "payment_method": "Digital Only"
+ },
+ {
+   "mfc_id": 443,
+   "rating": 4,
+   "preptime": 15,
+   "cuisine": "Multi-Cuisine",
+   "payment_method": "Cash/Digital"
+ },
+ {
+   "mfc_id": 444,
+   "rating": 2,
+   "preptime": 30,
+   "cuisine": "Italian",
+   "payment_method": "Digital Only"
+ },
+ {
+   "mfc_id": 445,
+   "rating": 4,
+   "preptime": 15,
+   "cuisine": "Multi-Cuisine",
+   "payment_method": "Digital Only"
+ },
+ {
+   "mfc_id": 446,
+   "rating": 3,
+   "preptime": 30,
+   "cuisine": "Japanese",
+   "payment_method": "Cash Only"
+ },
+ {
+   "mfc_id": 447,
+   "rating": 5,
+   "preptime": 10,
+   "cuisine": "Indian",
+   "payment_method": "Cash Only"
+ },
+ {
+   "mfc_id": 448,
+   "rating": 5,
+   "preptime": 10,
+   "cuisine": "Multi-Cuisine",
+   "payment_method": "Cash Only"
+ },
+ {
+   "mfc_id": 449,
+   "rating": 2,
+   "preptime": 15,
+   "cuisine": "Mexican",
+   "payment_method": "Cash Only"
+ },
+ {
+   "mfc_id": 450,
+   "rating": 5,
+   "preptime": 30,
+   "cuisine": "Indian",
+   "payment_method": "Cash/Digital"
+ },
+ {
+   "mfc_id": 451,
+   "rating": 3,
+   "preptime": 10,
+   "cuisine": "Italian",
+   "payment_method": "Cash/Digital"
+ },
+ {
+   "mfc_id": 452,
+   "rating": 3,
+   "preptime": 20,
+   "cuisine": "Multi-Cuisine",
+   "payment_method": "Digital Only"
+ },
+ {
+   "mfc_id": 453,
+   "rating": 5,
+   "preptime": 15,
+   "cuisine": "Multi-Cuisine",
+   "payment_method": "Digital Only"
+ },
+ {
+   "mfc_id": 454,
+   "rating": 3,
+   "preptime": 15,
+   "cuisine": "Multi-Cuisine",
+   "payment_method": "Cash/Digital"
+ },
+ {
+   "mfc_id": 455,
+   "rating": 4,
+   "preptime": 15,
+   "cuisine": "Mexican",
+   "payment_method": "Digital Only"
+ },
+ {
+   "mfc_id": 456,
+   "rating": 5,
+   "preptime": 30,
+   "cuisine": "Brazillian",
+   "payment_method": "Digital Only"
+ },
+ {
+   "mfc_id": 457,
+   "rating": 3,
+   "preptime": 20,
+   "cuisine": "Mexican",
+   "payment_method": "Digital Only"
+ },
+ {
+   "mfc_id": 458,
+   "rating": 5,
+   "preptime": 10,
+   "cuisine": "Multi-Cuisine",
+   "payment_method": "Cash Only"
+ },
+ {
+   "mfc_id": 459,
+   "rating": 3,
+   "preptime": 10,
+   "cuisine": "Multi-Cuisine",
+   "payment_method": "Cash Only"
+ },
+ {
+   "mfc_id": 460,
+   "rating": 2,
+   "preptime": 10,
+   "cuisine": "Multi-Cuisine",
+   "payment_method": "Digital Only"
+ },
+ {
+   "mfc_id": 461,
+   "rating": 5,
+   "preptime": 30,
+   "cuisine": "Mexican",
+   "payment_method": "Cash Only"
+ },
+ {
+   "mfc_id": 462,
+   "rating": 2,
+   "preptime": 10,
+   "cuisine": "Multi-Cuisine",
+   "payment_method": "Cash Only"
+ },
+ {
+   "mfc_id": 463,
+   "rating": 2,
+   "preptime": 20,
+   "cuisine": "Mexican",
+   "payment_method": "Cash/Digital"
+ },
+ {
+   "mfc_id": 464,
+   "rating": 3,
+   "preptime": 10,
+   "cuisine": "Mexican",
+   "payment_method": "Digital Only"
+ },
+ {
+   "mfc_id": 465,
+   "rating": 3,
+   "preptime": 30,
+   "cuisine": "Brazillian",
+   "payment_method": "Cash/Digital"
+ },
+ {
+   "mfc_id": 466,
+   "rating": 5,
+   "preptime": 30,
+   "cuisine": "Mexican",
+   "payment_method": "Cash/Digital"
+ },
+ {
+   "mfc_id": 467,
+   "rating": 4,
+   "preptime": 15,
+   "cuisine": "Italian",
+   "payment_method": "Cash Only"
+ },
+ {
+   "mfc_id": 468,
+   "rating": 2,
+   "preptime": 30,
+   "cuisine": "Mexican",
+   "payment_method": "Cash Only"
+ },
+ {
+   "mfc_id": 469,
+   "rating": 5,
+   "preptime": 30,
+   "cuisine": "Italian",
+   "payment_method": "Digital Only"
+ },
+ {
+   "mfc_id": 470,
+   "rating": 2,
+   "preptime": 30,
+   "cuisine": "Japanese",
+   "payment_method": "Cash/Digital"
+ },
+ {
+   "mfc_id": 471,
+   "rating": 5,
+   "preptime": 20,
+   "cuisine": "Multi-Cuisine",
+   "payment_method": "Cash/Digital"
+ },
+ {
+   "mfc_id": 472,
+   "rating": 2,
+   "preptime": 10,
+   "cuisine": "Multi-Cuisine",
+   "payment_method": "Cash Only"
+ },
+ {
+   "mfc_id": 473,
+   "rating": 5,
+   "preptime": 15,
+   "cuisine": "Italian",
+   "payment_method": "Digital Only"
+ },
+ {
+   "mfc_id": 474,
+   "rating": 2,
+   "preptime": 20,
+   "cuisine": "Multi-Cuisine",
+   "payment_method": "Cash Only"
+ },
+ {
+   "mfc_id": 475,
+   "rating": 3,
+   "preptime": 20,
+   "cuisine": "Italian",
+   "payment_method": "Digital Only"
+ },
+ {
+   "mfc_id": 476,
+   "rating": 4,
+   "preptime": 20,
+   "cuisine": "Italian",
+   "payment_method": "Cash/Digital"
+ },
+ {
+   "mfc_id": 477,
+   "rating": 5,
+   "preptime": 15,
+   "cuisine": "Multi-Cuisine",
+   "payment_method": "Cash Only"
+ },
+ {
+   "mfc_id": 478,
+   "rating": 2,
+   "preptime": 15,
+   "cuisine": "Indian",
+   "payment_method": "Cash Only"
+ },
+ {
+   "mfc_id": 479,
+   "rating": 3,
+   "preptime": 15,
+   "cuisine": "Indian",
+   "payment_method": "Cash/Digital"
+ },
+ {
+   "mfc_id": 480,
+   "rating": 4,
+   "preptime": 30,
+   "cuisine": "Mexican",
+   "payment_method": "Digital Only"
+ },
+ {
+   "mfc_id": 481,
+   "rating": 2,
+   "preptime": 30,
+   "cuisine": "Japanese",
+   "payment_method": "Cash Only"
+ },
+ {
+   "mfc_id": 482,
+   "rating": 4,
+   "preptime": 10,
+   "cuisine": "Mexican",
+   "payment_method": "Cash/Digital"
+ },
+ {
+   "mfc_id": 483,
+   "rating": 4,
+   "preptime": 10,
+   "cuisine": "Indian",
+   "payment_method": "Cash/Digital"
+ },
+ {
+   "mfc_id": 484,
+   "rating": 5,
+   "preptime": 15,
+   "cuisine": "Japanese",
+   "payment_method": "Cash/Digital"
+ },
+ {
+   "mfc_id": 485,
+   "rating": 2,
+   "preptime": 15,
+   "cuisine": "Japanese",
+   "payment_method": "Cash Only"
+ },
+ {
+   "mfc_id": 486,
+   "rating": 5,
+   "preptime": 15,
+   "cuisine": "Indian",
+   "payment_method": "Digital Only"
+ },
+ {
+   "mfc_id": 487,
+   "rating": 3,
+   "preptime": 30,
+   "cuisine": "Italian",
+   "payment_method": "Cash Only"
+ },
+ {
+   "mfc_id": 488,
+   "rating": 2,
+   "preptime": 20,
+   "cuisine": "Italian",
+   "payment_method": "Cash/Digital"
+ },
+ {
+   "mfc_id": 489,
+   "rating": 5,
+   "preptime": 15,
+   "cuisine": "Indian",
+   "payment_method": "Cash Only"
+ },
+ {
+   "mfc_id": 490,
+   "rating": 2,
+   "preptime": 30,
+   "cuisine": "Multi-Cuisine",
+   "payment_method": "Cash Only"
+ },
+ {
+   "mfc_id": 491,
+   "rating": 4,
+   "preptime": 20,
+   "cuisine": "Indian",
+   "payment_method": "Cash Only"
+ },
+ {
+   "mfc_id": 492,
+   "rating": 4,
+   "preptime": 15,
+   "cuisine": "Mexican",
+   "payment_method": "Digital Only"
+ },
+ {
+   "mfc_id": 493,
+   "rating": 4,
+   "preptime": 15,
+   "cuisine": "Italian",
+   "payment_method": "Cash/Digital"
+ },
+ {
+   "mfc_id": 494,
+   "rating": 2,
+   "preptime": 30,
+   "cuisine": "Italian",
+   "payment_method": "Cash/Digital"
+ },
+ {
+   "mfc_id": 495,
+   "rating": 5,
+   "preptime": 20,
+   "cuisine": "Italian",
+   "payment_method": "Digital Only"
+ },
+ {
+   "mfc_id": 496,
+   "rating": 2,
+   "preptime": 15,
+   "cuisine": "Mexican",
+   "payment_method": "Digital Only"
+ },
+ {
+   "mfc_id": 497,
+   "rating": 2,
+   "preptime": 10,
+   "cuisine": "Brazillian",
+   "payment_method": "Cash/Digital"
+ },
+ {
+   "mfc_id": 498,
+   "rating": 2,
+   "preptime": 20,
+   "cuisine": "Indian",
+   "payment_method": "Cash/Digital"
+ },
+ {
+   "mfc_id": 499,
+   "rating": 5,
+   "preptime": 10,
+   "cuisine": "Brazillian",
+   "payment_method": "Cash Only"
+ }
+]

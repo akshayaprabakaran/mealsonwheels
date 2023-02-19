@@ -1,0 +1,59 @@
+<div class="flex mx-auto">
+  <div class="w-screen md:w-2/3">
+    <div class="card shadow">
+      <div class="card-header md:flex justify-between">
+       <h1 align="center" class="card-title">
+       <img src= "/assets/food_truck_left.png" width="50" height="50"/>
+          Meals On Wheels
+          <img src= "/assets/food_truck_right.png" width="50" height="50"/>
+        </h1>
+        <%= f = form_for @changeset, "#", phx_change: "search_and_filter", as: "search" %>
+          <%= label f, :search_phrase, class: "tag-label" do %>
+            <div class="tag-icon">
+              <%= text_input f, :search_phrase, class: "tag-input", phx_debounce: 500, placeholder: "Search" %>
+            </div>
+          <% end %>
+        <%= f = form_for @changeset, "#", phx_change: "filter", as: "filter" %>
+          <% options = ["Filter By: Prep Time": "", "< 15mins": "15", "< 30mins": "30"] %>
+            <%= select f, :filter_by_prep_time, options, class: "tag-select tag-select-sm" %>
+          <% options = ["Filter By: Distance": "", "< 1 mile": 1, "< 3 miles": 3, "< 5 miles": 5, "< 10 miles": 10] %>
+            <%= select f, :filter_by_distance, options, class: "tag-select tag-select-sm" %>
+          <% options = ["Filter By: Cuisine": "", "Mexican": "Mexican", "Italian": "Italian", "Indian": "Indian", "Japanese": "Japanese", "Multi-Cuisine": "Multi-Cuisine", "Brazillian": "Brazillian"] %>
+            <%= select f, :filter_by_cuisine, options, class: "tag-select tag-select-sm" %>
+          <% options = ["Filter By: Payment Method": "", "Accepts cash only": "Cash Only", "Accepts digital only": "Digital Only", "Accepts cash/digital": "Cash/Digital"] %>
+            <%= select f, :filter_by_payment, options, class: "tag-select tag-select-sm" %>
+      <div class="card-body prose max-w-screen">
+        <table class="table">
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Location</th>
+              <th>Cuisine</th>
+              <th>Timings</th>
+              <th>Ratings</th>
+              <th>Payment Method</th>
+              <th></th>
+            </tr>
+          </thead>
+          <tbody id="food_trucks">
+            <%= for food_truck <- @food_trucks do %>
+                <tr class="color-rows">
+                <td><%= food_truck.name %></td>
+                <td><%= food_truck.location %></td>
+                <td><%= food_truck.cuisine %></td>
+                <td>
+                <%= for timing <- food_truck_timings(food_truck.name) do%>
+                    <%= timing %><br>
+                <% end %>
+                </td>
+                <td class="color-stars"><%= raw rating_stars(food_truck.rating) %></td>
+                 <td><%= food_truck.payment_method %></td>
+                </tr>
+            <% end %>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+  </div>
+</div>
