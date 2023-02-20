@@ -87,7 +87,7 @@ If I had more time to work on this project, there are several things I would con
 * efficient parsing of food items and mapping with relevant cuisine.
 * geolocation functionality to enable users to find food trucks based on their current location.
 * more appealing visualiization using grid layout/React components
-* extensive documentation and testing to ensure that the application is well-documented and reliable.
+* extensive documentation, testing and deployment to ensure that the application is well-documented and reliable.
 
 ## Personal Thoughts
 This project ended up being one of my favorite projects I ever worked on. I thoroughly enjoyed designing and implementing this project. Thanks to Estée Lauder team for giving the space for creative freedom in working on this challenge. This project is so very interesting that I am positive to bring in more improvisations and new features soon!
