@@ -99,7 +99,7 @@ Assuming you have elixir installed on your machine, please get started with the 
 
 (In case, you don't have elixir installed, You can download Elixir from the official website for your operating system)
 
-To start your Phoenix server:
+To start Meals On Wheels server in dev env:
 
 
   * Clone this project with `git clone https://github.com/akshayaprabakaran/Meals-On-wheels.git`
@@ -108,6 +108,16 @@ To start your Phoenix server:
   * Start Phoenix endpoint with `mix phx.server` or inside IEx with `iex -S mix phx.server`
 
 Now you can visit [`localhost:4000/meals_on_wheels`](http://localhost:4000/meals_on_wheels) from your browser.
+
+To start Meals On Wheels server in  prod env:
+
+  * Clone this project with `git clone https://github.com/akshayaprabakaran/Meals-On-wheels.git`
+  * Run `export DATABASE_URL=ecto://postgres:postgres@localhost/meals_on_wheels_prod`
+  * Run `MIX_ENV=prod ./build.sh` - This will generate the mix release
+  * Run `MIX_ENV=prod ./build.sh` - This will generate the mix release
+  * Run this mix release - `_build/prod/rel/meals_on_wheels/bin/meals_on_wheels start`  
+
+Now you can visit [`localhost:4001/meals_on_wheels`](http://localhost:4001/meals_on_wheels) from your browser.
 
 ## Learn more
 
