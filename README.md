@@ -61,6 +61,8 @@ To implement this project, I used the
 * ***Phoenix LiveView*** for leveraging the power of Phoenix channels to provide fast, low-latency updates to Meals On Wheels UI.
 * ***Tailwind CSS*** for designing responsive and attractive user interface.
 * ***Geo.PostGIS*** - geolocation functionality to enable Estée Lauder team to search from their's office location for nearest food trucks based on latitude and longitude coordinates. 
+* ***Mix Release*** - With a Mix release, all the necessary application code, runtime dependencies, and configuration files are packaged together into a single, self-contained release. This makes it easier to deploy the application to production environments without having to worry about installing and configuring all the dependencies.
+* Fuzzy matching using ***SIMILARITY*** and ***LEVENSHTEIN*** for efficient matching without the need to transfer large amounts of data to the application layer and to order search results to provide more relevant and accurate results to the user. 
 
 As a food lover myself, I felt these features can make Meals On Wheels more useful
 * ***Ratings***
