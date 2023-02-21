@@ -52,7 +52,7 @@ defmodule MealsOnWheels.MixProject do
       {:ecto_enum_migration, "~> 0.3.4"},
       {:geo_postgis, "~> 3.4"},
       {:poison, "~> 4.0"},
-      {:ex_machina, "~> 2.7.0", only: :test},
+      {:ex_machina, "~> 2.7.0"},
       {:faker, "~> 0.17", only: :test},
       {:assertions, "~> 0.10", only: :test}
     ]
