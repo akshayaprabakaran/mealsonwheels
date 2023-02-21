@@ -19,7 +19,7 @@ defmodule MealsOnWheels.MixProject do
   def application do
     [
       mod: {MealsOnWheels.Application, []},
-      extra_applications: [:logger, :runtime_tools, :httpoison]
+      extra_applications: [:logger, :runtime_tools, :httpoison, :ex_machina]
     ]
   end
 
@@ -51,7 +51,10 @@ defmodule MealsOnWheels.MixProject do
       {:httpoison, "~> 1.4"},
       {:ecto_enum_migration, "~> 0.3.4"},
       {:geo_postgis, "~> 3.4"},
-      {:poison, "~> 4.0"}
+      {:poison, "~> 4.0"},
+      {:ex_machina, "~> 2.7.0", only: :test},
+      {:faker, "~> 0.17", only: :test},
+      {:assertions, "~> 0.10", only: :test}
     ]
   end
 

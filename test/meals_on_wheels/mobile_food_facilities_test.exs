@@ -1,115 +1,203 @@
 defmodule MealsOnWheels.MobileFoodFacilitiesTest do
   use MealsOnWheels.DataCase
 
+  import Assertions
+  import MealsOnWheels.Factory
+
   alias MealsOnWheels.MobileFoodFacilities
 
   describe "mobile_food_facilities" do
-    alias MealsOnWheels.MobileFoodFacilities.MobileFoodFacility
+    test "list_food_trucks/1 returns all food_trucks details" do
+      mfc_1 = insert(:mobile_food_facility, %{type: :truck, truck_id: "3"})
+      mfc_2 = insert(:mobile_food_facility, %{type: :truck, truck_id: "5"})
+      _mfc_3 = insert(:mobile_food_facility, %{type: :truck, name: mfc_1.name, truck_id: "5"})
+      _schedule_1 = insert(:mobile_food_schedule, %{truck_id: "5"})
+      _schedule_2 = insert(:mobile_food_schedule, %{truck_id: "3"})
+      mfa_1 = insert(:mobile_food_advanced, %{mfc_id: mfc_1.id})
+      mfa_2 = insert(:mobile_food_advanced, %{mfc_id: mfc_2.id})
 
-    import MealsOnWheels.MobileFoodFacilitiesFixtures
+      food_trucks =
+        Enum.map([{mfc_1, mfa_1}, {mfc_2, mfa_2}], fn {mfc, mfa} ->
+          %{
+            id: mfc.id,
+            name: mfc.name,
+            location: mfc.location,
+            rating: mfa.rating,
+            cuisine: mfa.cuisine,
+            prep_time: mfa.preptime,
+            type: mfc.type,
+            payment_method: mfa.payment_method
+          }
+        end)
 
-    @invalid_attrs %{
-      food_items: nil,
-      latitude: nil,
-      location: nil,
-      longitude: nil,
-      name: nil,
-      schedule: nil
-    }
-
-    test "list_mobile_food_facilities/0 returns all mobile_food_facilities" do
-      mobile_food_facility = mobile_food_facility_fixture()
-      assert MobileFoodFacilities.list_mobile_food_facilities() == [mobile_food_facility]
+      _push_cart = insert(:mobile_food_facility, %{type: :push_cart, truck_id: "3"})
+      assert_lists_equal(MobileFoodFacilities.list_food_trucks(%{}), food_trucks)
     end
 
-    test "get_mobile_food_facility!/1 returns the mobile_food_facility with given id" do
-      mobile_food_facility = mobile_food_facility_fixture()
+    test "list_food_trucks/1 returns all food_trucks based on distance filter in miles" do
+      mfc_within_1mile =
+        insert(:mobile_food_facility, %{
+          type: :truck,
+          truck_id: "3",
+          longitude: -122.38580966125056,
+          latitude: 37.79510426218426
+        })
 
-      assert MobileFoodFacilities.get_mobile_food_facility!(mobile_food_facility.id) ==
-               mobile_food_facility
+      mfc_not_within_1mile =
+        insert(:mobile_food_facility, %{
+          type: :truck,
+          truck_id: "5",
+          longitude: -122.44188202520413,
+          latitude: 37.74382081705027
+        })
+
+      _mfc_3 =
+        insert(:mobile_food_facility, %{type: :truck, name: mfc_within_1mile.name, truck_id: "5"})
+
+      _schedule_1 = insert(:mobile_food_schedule, %{truck_id: "5"})
+      _schedule_2 = insert(:mobile_food_schedule, %{truck_id: "3"})
+      mfa_1 = insert(:mobile_food_advanced, %{mfc_id: mfc_within_1mile.id})
+      _mfa_2 = insert(:mobile_food_advanced, %{mfc_id: mfc_not_within_1mile.id})
+
+      food_truck = [
+        %{
+          id: mfc_within_1mile.id,
+          name: mfc_within_1mile.name,
+          location: mfc_within_1mile.location,
+          rating: mfa_1.rating,
+          cuisine: mfa_1.cuisine,
+          prep_time: mfa_1.preptime,
+          type: mfc_within_1mile.type,
+          payment_method: mfa_1.payment_method
+        }
+      ]
+
+      assert_lists_equal(MobileFoodFacilities.list_food_trucks(%{distance: 1}), food_truck)
     end
 
-    test "create_mobile_food_facility/1 with valid data creates a mobile_food_facility" do
-      valid_attrs = %{
-        food_items: "some food_items",
-        latitude: 120.5,
-        location: "some location",
-        longitude: 120.5,
-        name: "some name",
-        schedule: "some schedule"
-      }
+    test "list_food_trucks/1 returns all food_trucks based on cuisine filter" do
+      mfc_1 = insert(:mobile_food_facility, %{type: :truck, truck_id: "3"})
+      mfc_2 = insert(:mobile_food_facility, %{type: :truck, truck_id: "5"})
+      _schedule_1 = insert(:mobile_food_schedule, %{truck_id: "5"})
+      _schedule_2 = insert(:mobile_food_schedule, %{truck_id: "3"})
+      _mfa_mexican = insert(:mobile_food_advanced, %{cuisine: "Mexican", mfc_id: mfc_1.id})
+      mfa_italian = insert(:mobile_food_advanced, %{cuisine: "Italian", mfc_id: mfc_2.id})
 
-      assert {:ok, %MobileFoodFacility{} = mobile_food_facility} =
-               MobileFoodFacilities.create_mobile_food_facility(valid_attrs)
+      food_truck = [
+        %{
+          id: mfc_2.id,
+          name: mfc_2.name,
+          location: mfc_2.location,
+          rating: mfa_italian.rating,
+          cuisine: mfa_italian.cuisine,
+          prep_time: mfa_italian.preptime,
+          type: mfc_1.type,
+          payment_method: mfa_italian.payment_method
+        }
+      ]
 
-      assert mobile_food_facility.food_items == "some food_items"
-      assert mobile_food_facility.latitude == 120.5
-      assert mobile_food_facility.location == "some location"
-      assert mobile_food_facility.longitude == 120.5
-      assert mobile_food_facility.name == "some name"
-      assert mobile_food_facility.schedule == "some schedule"
+      assert_lists_equal(MobileFoodFacilities.list_food_trucks(%{cuisine: "Italian"}), food_truck)
     end
 
-    test "create_mobile_food_facility/1 with invalid data returns error changeset" do
-      assert {:error, %Ecto.Changeset{}} =
-               MobileFoodFacilities.create_mobile_food_facility(@invalid_attrs)
+    test "list_food_trucks/1 returns all food_trucks less than given preptime filter in mins" do
+      mfc_1 = insert(:mobile_food_facility, %{type: :truck, truck_id: "3"})
+      mfc_2 = insert(:mobile_food_facility, %{type: :truck, truck_id: "5"})
+      _schedule_1 = insert(:mobile_food_schedule, %{truck_id: "5"})
+      _schedule_2 = insert(:mobile_food_schedule, %{truck_id: "3"})
+      _mfa_25mins = insert(:mobile_food_advanced, %{preptime: 25, mfc_id: mfc_1.id})
+      mfa_5mins = insert(:mobile_food_advanced, %{preptime: 5, mfc_id: mfc_2.id})
+
+      food_truck = [
+        %{
+          id: mfc_2.id,
+          name: mfc_2.name,
+          location: mfc_2.location,
+          rating: mfa_5mins.rating,
+          cuisine: mfa_5mins.cuisine,
+          prep_time: mfa_5mins.preptime,
+          type: mfc_1.type,
+          payment_method: mfa_5mins.payment_method
+        }
+      ]
+
+      assert_lists_equal(MobileFoodFacilities.list_food_trucks(%{prep_time: 15}), food_truck)
     end
 
-    test "update_mobile_food_facility/2 with valid data updates the mobile_food_facility" do
-      mobile_food_facility = mobile_food_facility_fixture()
+    test "list_food_trucks/1 returns all food_trucks for the given payment method" do
+      mfc_1 = insert(:mobile_food_facility, %{type: :truck, truck_id: "3"})
+      mfc_2 = insert(:mobile_food_facility, %{type: :truck, truck_id: "5"})
+      _schedule_1 = insert(:mobile_food_schedule, %{truck_id: "5"})
+      _schedule_2 = insert(:mobile_food_schedule, %{truck_id: "3"})
+      _mfa_digital = insert(:mobile_food_advanced, %{payment_method: "Digital Only", mfc_id: mfc_1.id})
+      mfa_cash = insert(:mobile_food_advanced, %{payment_method: "Cash Only", mfc_id: mfc_2.id})
 
-      update_attrs = %{
-        food_items: "some updated food_items",
-        latitude: 456.7,
-        location: "some updated location",
-        longitude: 456.7,
-        name: "some updated name",
-        schedule: "some updated schedule"
-      }
+      food_truck = [
+        %{
+          id: mfc_2.id,
+          name: mfc_2.name,
+          location: mfc_2.location,
+          rating: mfa_cash.rating,
+          cuisine: mfa_cash.cuisine,
+          prep_time: mfa_cash.preptime,
+          type: mfc_1.type,
+          payment_method: mfa_cash.payment_method
+        }
+      ]
 
-      assert {:ok, %MobileFoodFacility{} = mobile_food_facility} =
-               MobileFoodFacilities.update_mobile_food_facility(
-                 mobile_food_facility,
-                 update_attrs
-               )
-
-      assert mobile_food_facility.food_items == "some updated food_items"
-      assert mobile_food_facility.latitude == 456.7
-      assert mobile_food_facility.location == "some updated location"
-      assert mobile_food_facility.longitude == 456.7
-      assert mobile_food_facility.name == "some updated name"
-      assert mobile_food_facility.schedule == "some updated schedule"
+      assert_lists_equal(MobileFoodFacilities.list_food_trucks(%{payment_method: "Cash Only"}), food_truck)
     end
 
-    test "update_mobile_food_facility/2 with invalid data returns error changeset" do
-      mobile_food_facility = mobile_food_facility_fixture()
+    test "food_truck_timings/1 returns given food_truck name's timings" do
+      _mfc_1 = insert(:mobile_food_facility, %{type: :truck, name: "FT", truck_id: "3"})
+      _mfc_2 = insert(:mobile_food_facility, %{type: :truck, name: "FT", truck_id: "4"})
+      _mfc_3 = insert(:mobile_food_facility, %{type: :truck, truck_id: "5"})
+      schedule_1 = insert(:mobile_food_schedule, %{truck_id: "3"})
+      _schedule_2 = insert(:mobile_food_schedule, %{truck_id: "5"})
+      schedule_3 = insert(:mobile_food_schedule, %{truck_id: "4"})
 
-      assert {:error, %Ecto.Changeset{}} =
-               MobileFoodFacilities.update_mobile_food_facility(
-                 mobile_food_facility,
-                 @invalid_attrs
-               )
+      food_truck_timing = [
+        %{
+          days: [schedule_1.day, schedule_3.day],
+          from: [schedule_1.from, schedule_3.from],
+          to: [schedule_1.to, schedule_3.to]
+        }
+      ]
 
-      assert mobile_food_facility ==
-               MobileFoodFacilities.get_mobile_food_facility!(mobile_food_facility.id)
+      _push_cart = insert(:mobile_food_facility, %{type: :push_cart, truck_id: "3"})
+      assert MobileFoodFacilities.food_truck_timings("FT") == food_truck_timing
     end
 
-    test "delete_mobile_food_facility/1 deletes the mobile_food_facility" do
-      mobile_food_facility = mobile_food_facility_fixture()
+    test "search_food_trucks/1 returns food trucks that match given search phrase" do
+      mfc_1 = insert(:mobile_food_facility, %{type: :truck, name: "Burger truck", truck_id: "3"})
+      mfc_2 = insert(:mobile_food_facility, %{type: :truck, name: "burrito truck", truck_id: "5"})
+      _mfc_3 = insert(:mobile_food_facility, %{type: :truck, name: "cream trcuk", truck_id: "5"})
+      _schedule_1 = insert(:mobile_food_schedule, %{truck_id: "5"})
+      _schedule_2 = insert(:mobile_food_schedule, %{truck_id: "3"})
+      mfa_1 = insert(:mobile_food_advanced, %{mfc_id: mfc_1.id})
+      mfa_2 = insert(:mobile_food_advanced, %{mfc_id: mfc_2.id})
 
-      assert {:ok, %MobileFoodFacility{}} =
-               MobileFoodFacilities.delete_mobile_food_facility(mobile_food_facility)
+      food_trucks =
+        Enum.map([{mfc_1, mfa_1}, {mfc_2, mfa_2}], fn {mfc, mfa} ->
+          %{
+            id: mfc.id,
+            name: mfc.name,
+            location: mfc.location,
+            rating: mfa.rating,
+            cuisine: mfa.cuisine,
+            prep_time: mfa.preptime,
+            type: mfc.type,
+            payment_method: mfa.payment_method
+          }
+        end)
 
-      assert_raise Ecto.NoResultsError, fn ->
-        MobileFoodFacilities.get_mobile_food_facility!(mobile_food_facility.id)
-      end
-    end
+      _push_cart =
+        insert(:mobile_food_facility, %{
+          type: :push_cart,
+          name: "buffalo wings truck",
+          truck_id: "3"
+        })
 
-    test "change_mobile_food_facility/1 returns a mobile_food_facility changeset" do
-      mobile_food_facility = mobile_food_facility_fixture()
-
-      assert %Ecto.Changeset{} =
-               MobileFoodFacilities.change_mobile_food_facility(mobile_food_facility)
+      assert_lists_equal(MobileFoodFacilities.search_food_trucks("Bu"), food_trucks)
     end
   end
 end

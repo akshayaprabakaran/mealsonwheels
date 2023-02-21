@@ -33,9 +33,9 @@ defmodule MealsOnWheels.MobileFoodFacilities do
     |> Repo.all()
   end
 
-  @spec food_truck_timings(id :: Integer.t()) :: [map()]
-  def food_truck_timings(id) do
-    truck_ids = food_truck_ids(id) |> List.flatten()
+  @spec food_truck_timings(name :: String.t()) :: [map()]
+  def food_truck_timings(name) do
+    truck_ids = food_truck_ids(name) |> List.flatten()
 
     MobileFoodSchedule
     |> where([mfs], mfs.truck_id in ^truck_ids)

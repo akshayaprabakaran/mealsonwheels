@@ -23,6 +23,8 @@ config :meals_on_wheels, MealsOnWheelsWeb.Endpoint,
 # In test we don't send emails.
 config :meals_on_wheels, MealsOnWheels.Mailer, adapter: Swoosh.Adapters.Test
 
+config :meals_on_wheels, :seed, apply(System, :get_env, ["SEED"]) == "true"
+config :meals_on_wheels, MealsOnWheels.Repo, types: MealsOnWheels.PostgresTypes
 # Print only warnings and errors during test
 config :logger, level: :warn
 
