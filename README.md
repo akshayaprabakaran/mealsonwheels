@@ -62,7 +62,8 @@ To implement this project, I used the
 * ***Tailwind CSS*** for designing responsive and attractive user interface.
 * ***Geo.PostGIS*** - geolocation functionality to enable Estée Lauder team to search from their's office location for nearest food trucks based on latitude and longitude coordinates. 
 * ***Mix Release*** - With a Mix release, all the necessary application code, runtime dependencies, and configuration files are packaged together into a single, self-contained release. This makes it easier to deploy the application to production environments without having to worry about installing and configuring all the dependencies.
-* Fuzzy matching using ***SIMILARITY*** and ***LEVENSHTEIN*** for efficient matching without the need to transfer large amounts of data to the application layer and to order search results to provide more relevant and accurate results to the user. 
+* Fuzzy matching using ***SIMILARITY*** and ***LEVENSHTEIN*** for efficient matching without the need to transfer large amounts of data to the application layer and to order search results to provide more relevant and accurate results to the user.
+* ***Ex-machina factories*** and ***Faker*** library for generating test data since they provide a more flexible, maintainable, performant, and readable approach to defining and creating test data in Elixir applications. 
 
 As a food lover myself, I felt these features can make Meals On Wheels more useful
 * ***Ratings***
@@ -81,6 +82,9 @@ During the implementation of this project, I had to make several tradeoffs to ba
 * searching
 * filtering
 * clean/decent visualiization
+* test suite for important functions that aid data filtering and searching
+* production ready release
+
 
 If I had more time to work on this project, there are several things I would consider implementing
 * pagination for better response time.
