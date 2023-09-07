@@ -12,9 +12,9 @@ https://user-images.githubusercontent.com/43679591/219937440-0acd0e23-8377-426e-
 
 The goal of this project is to allow users to find food trucks in San Francisco. The data for the food trucks is fetched from DataSF's datasets. DataSF seeks to transform the way the City works through the use of data. The data from DataSF is used to populate Meals On Wheels's database. 
 
-## What can Estée Lauder team do with Meals On Wheels?
+## What can users do with Meals On Wheels?
 
-Estée Lauder team will be able to 
+Users will be able to 
   * ***search for food trucks by name***, and Meals On Wheels will return a list of food trucks that match their search criteria.
   
 
