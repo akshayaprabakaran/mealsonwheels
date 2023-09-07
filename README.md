@@ -60,7 +60,7 @@ To implement this project, I used the
 * ***Supervisor*** library which ensures that the system remains robust and responsive, even in the face of errors or failures.
 * ***Phoenix LiveView*** for leveraging the power of Phoenix channels to provide fast, low-latency updates to Meals On Wheels UI.
 * ***Tailwind CSS*** for designing responsive and attractive user interface.
-* ***Geo.PostGIS*** - geolocation functionality to enable Estée Lauder team to search from their's office location for nearest food trucks based on latitude and longitude coordinates. 
+* ***Geo.PostGIS*** - geolocation functionality to enable users to search from their's office location for nearest food trucks based on latitude and longitude coordinates. 
 * ***Mix Release*** - With a Mix release, all the necessary application code, runtime dependencies, and configuration files are packaged together into a single, self-contained release. This makes it easier to deploy the application to production environments without having to worry about installing and configuring all the dependencies.
 * Fuzzy matching using ***SIMILARITY*** and ***LEVENSHTEIN*** for efficient matching without the need to transfer large amounts of data to the application layer and to order search results to provide more relevant and accurate results to the user.
 * ***Ex-machina factories*** and ***Faker*** library for generating test data since they provide a more flexible, maintainable, performant, and readable approach to defining and creating test data in Elixir applications. 
@@ -94,7 +94,7 @@ If I had more time to work on this project, there are several things I would con
 * extensive documentation, testing and deployment to ensure that the application is well-documented and reliable.
 
 ## Personal Thoughts
-This project ended up being one of my favorite projects I ever worked on. I thoroughly enjoyed designing and implementing this project. Thanks to Estée Lauder team for giving the space for creative freedom in working on this challenge. This project is so very interesting that I am positive to bring in more improvisations and new features soon!
+This project ended up being one of my favorite projects I ever worked on. I thoroughly enjoyed designing and implementing this project. This project is so very interesting that I am positive to bring in more improvisations and new features soon!
 
 
 ## Instructions to use Meals On Wheels
